@@ -12,20 +12,20 @@
 
 ## 3. Installing Ros-Bridge
 - Create a colcon workspace
-	`mkdir -p ~/carla-ros-bridge/src
-	cd ~/carla-ros-bridge/src`
+	`mkdir -p ~/carla-ros-bridge/src`
+	`cd ~/carla-ros-bridge/src`
 - Clone the official repositories 
-	`git clone https://github.com/carla-simulator/ros-bridge.git
-	git clone https://github.com/carla-simulator/ros-carla-msgs.git`
+	`git clone https://github.com/carla-simulator/ros-bridge.git`
+	`git clone https://github.com/carla-simulator/ros-carla-msgs.git`
 - Compile the bridge
-	`sudo apt update
-	sudo apt install -y python3-pip python3-colcon-common-extensions ros-${ROS_DISTRO}-pcl-conversions
-	pip3 install transforms3d
-	cd ~/carla-ros-bridge
-	colcon build --symlink-install`
+	`sudo apt update`
+	`sudo apt install -y python3-pip python3-colcon-common-extensions ros-${ROS_DISTRO}-pcl-conversions`
+	`pip3 install transforms3d`
+	`cd ~/carla-ros-bridge`
+	`colcon build --symlink-install`
 - Execute the bridge
-	`cd ~/carla-ros-bridge
-	ros2 launch carla_ros_bridge carla_ros_bridge_with_example_ego_vehicle.launch.py`
+	`cd ~/carla-ros-bridge`
+	`ros2 launch carla_ros_bridge carla_ros_bridge_with_example_ego_vehicle.launch.py`
 
 # CARLA + ROS Bridge Setup Timeline
 
