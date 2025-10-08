@@ -92,6 +92,10 @@ This is a solo learning project, but feel free to open issues or forks if you're
 
 ---
 
+## License
+This project is released under the [MIT License](LICENSE).
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 ## Author
 Daniel Martínez-Cabeza de Vaca Guillén 
 Dual Degree in Mathematics & Computer Science  
