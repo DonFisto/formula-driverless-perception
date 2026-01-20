@@ -12,6 +12,19 @@ def pc2_to_xyz(msg):
         pts.append((p[0], p[1], p[2]))
     return np.array(pts, dtype=np.float32)
 
+def voxel_downsample_xyz(pts: np.ndarray, voxel_size: float) -> np.ndarray:
+    if pts.shape[0] == 0:
+        return pts
+    vs = float(voxel_size)
+    q = np.floor(pts / vs).astype(np.int32)
+    _, inv = np.unique(q, axis=0,return_inverse=True)
+
+    out = np.zeros((inv.max()+1, 3), dtype=np.float32)
+    counts = np.bincount(inv)
+    np.add.at(out, inv, pts)
+    out /= counts[:, None].astype(np.float32)
+    return out
+
 class LidarObstacleNode(Node):
     def __init__(self):
         super().__init__('lidar_obstacle_node')
@@ -25,6 +38,7 @@ class LidarObstacleNode(Node):
         # ground filter: only apply when there is Z variation
         if pts.shape[0] > 0 and (pts[:,2].max() - pts[:,2].min()) > 0.1:
         	pts = pts[pts[:,2] > 0.2]
+        pts = voxel_downsample_xyz(pts, voxel_size=0.10)
         if pts.shape[0] == 0:
             return
         # clustering
