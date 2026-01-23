@@ -92,6 +92,22 @@ This section summarizes the sessions spent building a working CARLA + ROS bridge
 - `ros2 run carla_manual_control carla_manual_control` failed—package not built/installed in the active env.
 - Next steps: ensure `carla_manual_control` is in the workspace, rebuild, source `install/setup.bash`, then run; or run the example launch that already starts manual control.
 
+### Session 21 — Pivot away from CARLA due to RAM constraints
+- Decision: CARLA was too resource-hungry, so the project was adapted to use Gazebo instead.
+- Goal reset: keep the same pipeline (Perception → Localization → Planning → Control) but change simulator.
+
+### Session 22 — Gazebo installation and ROS integration (Gazebo Classic)
+- Attempted ROS launch: `ros2 launch gazebo_ros empty_world.launch.py` failed because the launch file name didn’t exist in the installed `gazebo_ros` package.
+- Verified local install structure under `/opt/ros/humble/share/gazebo_ros/` (launch + worlds present).
+- Fixed launch by using:
+  - `ros2 launch gazebo_ros gazebo.launch.py world:=/opt/ros/humble/share/gazebo_ros/worlds/empty.world`
+- Confirmed Gazebo runs through ROS2 properly.
+
+### Session 23 — Environment usage conventions (sourcing)
+- Clarified that each new terminal must source ROS:
+  - `source /opt/ros/humble/setup.bash`
+- Optionally add to `.bashrc` for persistence.
+- Clarified that workspaces also require `source ~/.../install/setup.bash`.
 ---
 
 ## Quick Debrief
@@ -99,7 +115,7 @@ This section summarizes the sessions spent building a working CARLA + ROS bridge
 - ✅ **Solved:** compiler include path (`tf2_eigen`), duplicate packages, JSON format & spawnpoint validation, `empy`/`catkin_pkg` IDL issues, local CARLA dependencies, `carla_msgs` separate repo, Dockerfile for Foxy bridge, running CARLA 0.9.15 + bridge on host.  
 - ⚠️ **Recurring pitfalls:** strict CARLA ↔ Python minor version match, mixing conda/venv/system Python, tag/branch confusion, container vs host graphics (Vulkan), blueprint not found when the bridge couldn’t properly connect or used a mismatched CARLA Python module.
 
-# Environment Setup
+# Initial Environment Setup
 
 ## 1. System Requirements
 - Supported OS: Ubuntu 22.04 (Humble-Carla_0.9.15) / Ubuntu 20.04 (Foxy-Carla_0.9.13)
@@ -127,3 +143,31 @@ This section summarizes the sessions spent building a working CARLA + ROS bridge
 - Execute the bridge
 	`cd ~/carla-ros-bridge`
 	`ros2 launch carla_ros_bridge carla_ros_bridge_with_example_ego_vehicle.launch.py`
+
+# Environment Setup (Current)
+
+> **Note**  
+> Although the project initially used CARLA + ROS Bridge, the final and current setup pivots to **Gazebo Classic + ROS 2 Humble** due to CARLA’s high RAM and GPU requirements.  
+> The overall pipeline (Perception → Localization → Planning → Control) remains unchanged.
+
+---
+
+## 1. System Requirements
+
+- **Operating System:** Ubuntu 22.04 LTS  
+- **ROS 2 Distribution:** Humble  
+- **Simulator:** Gazebo Classic (installed via APT)  
+- **Python:** 3.10 (system Python used by ROS 2 Humble)  
+- **Hardware:**  
+  - CPU-only supported  
+  - GPU optional (used only for visualization)
+
+---
+
+## 2. Installing Gazebo Classic
+
+Gazebo is installed directly from Ubuntu repositories for stability and simplicity.
+
+```bash
+sudo apt update
+sudo apt install -y gazebo ros-humble-gazebo-ros-pkg
