@@ -77,7 +77,7 @@ This allows the project to remain:
 ---
 
 ## Project Structure
-
+```
 project_root/
 │
 ├── gazebo_ws/                 # Gazebo / robot simulation workspace
@@ -96,7 +96,7 @@ project_root/
 ├── docs/                      # Notes, setup, timeline, architecture
 ├── scripts/                   # Utility scripts for launching environment
 └── README.md
-
+```
 ---
 
 ## Tech Stack
@@ -238,8 +238,6 @@ Possible extensions after completing the current scope:
 ## License
 
 This project is released under the **MIT License**.
-
-https://img.shields.io/badge/License-MIT-yellow.svg
 
 ---
 
