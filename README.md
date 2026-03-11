@@ -1,102 +1,248 @@
-# 🏎️ Formula Student Driverless - Perception Stack
+# 🏎️ Formula Student Driverless - LiDAR Perception and Reactive Navigation
 
-This project is a modular perception system for a simulated Formula Student Driverless car. It integrates real-time camera and LiDAR perception, object detection with YOLOv5, and SLAM for localization — all using ROS 2.
+This project develops a **modular LiDAR-based perception and reactive navigation pipeline** for a simulated autonomous vehicle using **ROS 2 Humble** and **Gazebo Classic**.
 
-> 💡 **Goal**: Prepare to contribute to a real FS Driverless team by building a perception pipeline from scratch using simulation and open-source tools.
+> 💡 **Goal**: Build and understand a lightweight autonomous driving stack from scratch, aligned with the type of modular architectures used in Formula Student Driverless teams.
+
+---
+
+## Current Scope
+
+The project focuses on a **reduced but realistic autonomy pipeline** that can be completed and demonstrated reliably within the available timeframe.
+
+### Main Objective
+Develop a working pipeline for:
+
+- LiDAR-based obstacle detection
+- Obstacle representation using bounding boxes
+- Reactive obstacle avoidance
+- RViz visualization and reproducible ROS 2 integration
+
+### Current Pipeline
+
+Perception → Reactive Navigation
+
+The robot should:
+
+1. Detect obstacles using LiDAR  
+2. Cluster point cloud data  
+3. Represent obstacles with AABB / OBB boxes  
+4. Publish structured obstacle information  
+5. Move autonomously in simulation while avoiding collisions  
+
+---
+
+## Why This Scope
+
+The project originally started with **CARLA + ROS Bridge**, aiming to cover perception, localization, planning, and control.
+
+However, due to:
+
+- High RAM usage  
+- Instability on mid-range hardware  
+- Simulator complexity relative to the available timeframe  
+
+the project was **re-scoped and migrated to Gazebo Classic**.
+
+This allows the project to remain:
+
+- Technically solid  
+- Reproducible  
+- Focused on robotics fundamentals  
+- Feasible within the current deadline  
 
 ---
 
 ## Features
 
-- ROS2-based modular architecture
-- Real-time camera integration via `cv_camera`
-- Object detection using YOLOv5 + PyTorch
-- LiDAR data processing and visualization
-- SLAM with `slam_toolbox` or `cartographer_ros`
-- TF2 and coordinate transform handling
-- Rviz visualization for debugging and analysis
+### Implemented / In Progress
+
+- ROS 2 Humble modular architecture  
+- Gazebo Classic simulation environment  
+- LiDAR perception using `PointCloud2`  
+- Point cloud clustering with **DBSCAN**  
+- **AABB (Axis-Aligned Bounding Boxes)**  
+- **OBB (Oriented Bounding Boxes)**  
+- RViz visualization of LiDAR and detected obstacles  
+- Voxel downsampling for perception stabilization  
+
+### Planned in the Current Scope
+
+- EMA temporal smoothing for obstacle stability  
+- Structured obstacle publishing  
+- Reactive navigation node  
+- Obstacle-aware motion in Gazebo  
+- Launch files and reproducible demo workflow  
 
 ---
 
 ## Project Structure
-
-```bash
-fs_perception/
-├── src/                     # ROS2 packages
-│   ├── camera_node/
-│   ├── yolo_detection/
-│   ├── lidar_processing/
-│   └── slam/
-├── launch/                  # Unified launch files
-├── scripts/                 # Utility scripts (e.g. setup, playback)
-├── docs/                    # Architecture diagrams, notes, and roadmap
+```
+project_root/
+│
+├── gazebo_ws/                 # Gazebo / robot simulation workspace
+│   ├── src/
+│   ├── build/
+│   ├── install/
+│   └── log/
+│
+├── perception_ws/             # LiDAR perception workspace
+│   ├── src/
+│   │   └── lidar_perception/
+│   ├── build/
+│   ├── install/
+│   └── log/
+│
+├── docs/                      # Notes, setup, timeline, architecture
+├── scripts/                   # Utility scripts for launching environment
 └── README.md
 ```
+---
+
+## Tech Stack
+
+- Ubuntu 22.04  
+- ROS 2 Humble  
+- Gazebo Classic  
+- Python 3.10  
+- RViz2  
+- NumPy  
+- scikit-learn (DBSCAN)
 
 ---
 
 ## Quick Start
 
-> Recommended: ROS 2 Foxy or Humble, Ubuntu 20.04+
+### 1. Source ROS2
 
-```bash
-# Clone the repo
-git clone https://github.com/yourusername/fs_perception.git
-cd fs_perception
+source /opt/ros/humble/setup.bash
 
-# Build the workspace
-colcon build
+### 2. Launch Gazebo
 
-# Source it
+ros2 launch gazebo_ros gazebo.launch.py \
+world:=/opt/ros/humble/share/gazebo_ros/worlds/empty.world
+
+### 3. Build and Source the Perception Workspace
+
+cd ~/perception_ws  
+colcon build --symlink-install  
 source install/setup.bash
 
-# Launch camera + YOLO detection
-ros2 launch launch/camera_yolo.launch.py
-```
+### 4. Run the Obstacle Detection Node
+
+ros2 run lidar_perception obstacle_node
+
+### 5. Visualize in RViz2
+
+rviz2
+
+Typical RViz displays:
+
+- PointCloud2 → raw LiDAR  
+- MarkerArray → detected obstacles  
+- TF → robot frame tree  
 
 ---
 
-## Learning Roadmap
+## Development Roadmap (Current 3-Week Plan)
 
-This repo follows a structured learning path:
-- Week 1: ROS2 basics & project setup
-- Week 2–3: Camera + YOLOv5 integration
-- Week 4: LiDAR data capture & filtering
-- Week 5: SLAM and map building
-- Week 6: Full integration & testing
+The project follows a **3-week (24 hour) execution plan**.
 
-See [`docs/roadmap.md`](docs/roadmap.md) for detailed progress.
+### Week 1 — Perception Stabilization
+
+- Refactor and clean perception node  
+- Add voxel downsampling  
+- Tune DBSCAN parameters  
+- Add EMA temporal smoothing  
+- Publish structured obstacle data  
+
+### Week 2 — Reactive Navigation
+
+- Create navigation node  
+- Evaluate nearest obstacles  
+- Implement steering logic  
+- Tune motion parameters  
+- Test in multiple scenarios  
+
+### Week 3 — Polish and Delivery
+
+- Refactor and clean codebase  
+- Create launch files  
+- Record demo video  
+- Write technical documentation  
+- Prepare presentation slides  
 
 ---
 
-## Screenshots & Diagrams
+## Out of Scope (Current Version)
 
-*(To be added later)*  
-- [ ] Sample YOLO detections  
-- [ ] SLAM map in RViz  
-- [ ] System architecture diagram
+To keep the project realistic and finishable, the following are **not part of the current deliverable**:
+
+- CARLA integration  
+- Camera perception  
+- YOLO / deep learning object detection  
+- SLAM  
+- Global path planning  
+- Pure Pursuit / Stanley controllers  
+- Multi-sensor fusion  
+- Real vehicle deployment  
+
+These remain possible **future extensions**.
 
 ---
 
-## Resources & References
+## Current Status
 
-- [ROS2 Documentation](https://docs.ros.org/)
-- [YOLOv5 GitHub](https://github.com/ultralytics/yolov5)
-- [slam_toolbox](https://github.com/SteveMacenski/slam_toolbox)
+The project currently includes:
+
+- Stable Gazebo simulation  
+- Functional LiDAR data acquisition  
+- Obstacle clustering using DBSCAN  
+- AABB bounding boxes  
+- OBB bounding boxes  
+- RViz visualization of perception results  
+
+This places the project in an **advanced perception stage**, ready to integrate reactive navigation.
 
 ---
 
-## Contributions
+## Documentation
 
-This is a solo learning project, but feel free to open issues or forks if you're interested in this stack!
+Documentation is stored in the `docs/` directory.
+
+Recommended documents:
+
+- docs/environment_setup.md  
+- docs/timeline.md  
+- docs/perception_notes.md  
+
+These files track setup instructions, development progress, and architectural notes.
+
+---
+
+## Future Work
+
+Possible extensions after completing the current scope:
+
+- Temporal filtering with obstacle tracking  
+- Velocity estimation of obstacles  
+- SLAM integration  
+- Global planning algorithms  
+- Advanced control strategies  
+- Migration to richer simulators  
+- Real hardware deployment  
+- Formula Student-specific cone detection and track navigation  
 
 ---
 
 ## License
-This project is released under the [MIT License](LICENSE).
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+This project is released under the **MIT License**.
+
+---
 
 ## Author
-Daniel Martínez-Cabeza de Vaca Guillén 
+
+Daniel Martínez-Cabeza de Vaca Guillén  
 Dual Degree in Mathematics & Computer Science  
 Universidad de Murcia
