@@ -1,0 +1,4 @@
+source;share/fs_basic_robot/local_setup.bash
+source;share/fs_basic_robot/local_setup.dsv
+source;share/fs_basic_robot/local_setup.sh
+source;share/fs_basic_robot/local_setup.zsh

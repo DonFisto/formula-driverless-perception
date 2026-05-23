@@ -1,0 +1,1 @@
+/home/donfisto/perception_ws/build/perception_msgs/ament_cmake_core/perception_msgsConfig-version.cmake

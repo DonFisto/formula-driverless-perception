@@ -1,0 +1,7 @@
+{
+  "package_name": "perception_msgs",
+  "non_idl_tuples": [
+    "/home/donfisto/perception_ws/src/perception_msgs:msg/Obstacle.msg",
+    "/home/donfisto/perception_ws/src/perception_msgs:msg/ObstacleArray.msg"
+  ]
+}

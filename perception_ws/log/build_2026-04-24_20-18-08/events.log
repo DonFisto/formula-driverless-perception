@@ -1,0 +1,354 @@
+[0.000000] (-) TimerEvent: {}
+[0.001160] (lidar_perception) JobQueued: {'identifier': 'lidar_perception', 'dependencies': OrderedDict()}
+[0.001241] (perception_msgs) JobQueued: {'identifier': 'perception_msgs', 'dependencies': OrderedDict()}
+[0.001273] (lidar_perception) JobStarted: {'identifier': 'lidar_perception'}
+[0.007858] (perception_msgs) JobStarted: {'identifier': 'perception_msgs'}
+[0.099620] (-) TimerEvent: {}
+[0.200084] (-) TimerEvent: {}
+[0.257299] (perception_msgs) JobProgress: {'identifier': 'perception_msgs', 'progress': 'cmake'}
+[0.257753] (perception_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/donfisto/perception_ws/src/perception_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/donfisto/perception_ws/install/perception_msgs'], 'cwd': '/home/donfisto/perception_ws/build/perception_msgs', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'CONDA_PROMPT_MODIFIER': '', 'USER': 'donfisto', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'STARSHIP_SHELL': 'zsh', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/donfisto', 'TERMINFO': '/usr/lib/kitty/terminfo', 'OLDPWD': '/home/donfisto/gazebo_ws', 'CONDA_SHLVL': '0', 'DESKTOP_SESSION': 'ubuntu', 'KITTY_INSTALLATION_DIR': '/usr/lib/kitty', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/kitty.desktop', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'MANAGERPID': '3151', 'KITTY_PID': '36380', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'SYSTEMD_EXEC_PID': '3537', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '36380', 'COLORTERM': 'truecolor', '_CE_M': '', '_CONDA_ROOT': '/home/donfisto/miniconda3', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/donfisto/gazebo_ws/install', 'LOGNAME': 'donfisto', 'JOURNAL_STREAM': '9:14289', 'WINDOWID': '44040206', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'ROS_VERSION': '2', 'USERNAME': 'donfisto', 'TERM': 'xterm-kitty', 'KITTY_PUBLIC_KEY': '1:vWut-*P6j+2lA-c*fRIpz0`~F740NdR}`lr=Am2%', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/donfisto/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/donfisto-Vector-16-HX-AI-A2XWHG:@/tmp/.ICE-unix/3494,unix/donfisto-Vector-16-HX-AI-A2XWHG:/tmp/.ICE-unix/3494', 'INVOCATION_ID': '7d2d2d87cada4ac8a6a5372f5a230987', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XDG_MENU_PREFIX': 'gnome-', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XMODIFIERS': '@im=ibus', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'CONDA_PYTHON_EXE': '/home/donfisto/miniconda3/bin/python', 'AMENT_PREFIX_PATH': '/home/donfisto/gazebo_ws/install/fs_robot_description:/home/donfisto/gazebo_ws/install/fs_basic_robot:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'KITTY_WINDOW_ID': '1', 'CONDA_DEFAULT_ENV': '', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', '_CONDA_EXE': '/home/donfisto/miniconda3/bin/conda', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/donfisto/perception_ws/build/perception_msgs', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/donfisto/miniconda3/bin/conda', 'STARSHIP_SESSION_KEY': '1306337581170221', 'PYTHONPATH': '/home/donfisto/gazebo_ws/build/fs_robot_description:/home/donfisto/gazebo_ws/install/fs_robot_description/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'CONDA_PREFIX': '', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/donfisto/gazebo_ws/install/fs_basic_robot:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/donfisto/gazebo_ws/install/fs_robot_description:/opt/ros/jazzy'}), 'shell': False}
+[0.300292] (-) TimerEvent: {}
+[0.337061] (perception_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.400581] (-) TimerEvent: {}
+[0.409933] (perception_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.431215] (perception_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.500781] (-) TimerEvent: {}
+[0.548476] (perception_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.562685] (perception_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.563183] (perception_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.563726] (perception_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.576856] (perception_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.600966] (-) TimerEvent: {}
+[0.701376] (-) TimerEvent: {}
+[0.709046] (perception_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.723882] (perception_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.724198] (perception_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.725030] (perception_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.730267] (perception_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.756600] (lidar_perception) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/donfisto/perception_ws/build/lidar_perception/build', '--no-deps', 'symlink_data'], 'cwd': '/home/donfisto/perception_ws/build/lidar_perception', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'CONDA_PROMPT_MODIFIER': '', 'USER': 'donfisto', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'STARSHIP_SHELL': 'zsh', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/donfisto', 'TERMINFO': '/usr/lib/kitty/terminfo', 'OLDPWD': '/home/donfisto/gazebo_ws', 'CONDA_SHLVL': '0', 'DESKTOP_SESSION': 'ubuntu', 'KITTY_INSTALLATION_DIR': '/usr/lib/kitty', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/kitty.desktop', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'MANAGERPID': '3151', 'KITTY_PID': '36380', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'SYSTEMD_EXEC_PID': '3537', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '36380', 'COLORTERM': 'truecolor', '_CE_M': '', '_CONDA_ROOT': '/home/donfisto/miniconda3', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/donfisto/gazebo_ws/install', 'LOGNAME': 'donfisto', 'JOURNAL_STREAM': '9:14289', 'WINDOWID': '44040206', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'ROS_VERSION': '2', 'USERNAME': 'donfisto', 'TERM': 'xterm-kitty', 'KITTY_PUBLIC_KEY': '1:vWut-*P6j+2lA-c*fRIpz0`~F740NdR}`lr=Am2%', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/donfisto/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/donfisto-Vector-16-HX-AI-A2XWHG:@/tmp/.ICE-unix/3494,unix/donfisto-Vector-16-HX-AI-A2XWHG:/tmp/.ICE-unix/3494', 'INVOCATION_ID': '7d2d2d87cada4ac8a6a5372f5a230987', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XDG_MENU_PREFIX': 'gnome-', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XMODIFIERS': '@im=ibus', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'CONDA_PYTHON_EXE': '/home/donfisto/miniconda3/bin/python', 'AMENT_PREFIX_PATH': '/home/donfisto/gazebo_ws/install/fs_robot_description:/home/donfisto/gazebo_ws/install/fs_basic_robot:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'KITTY_WINDOW_ID': '1', 'CONDA_DEFAULT_ENV': '', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', '_CONDA_EXE': '/home/donfisto/miniconda3/bin/conda', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/donfisto/perception_ws/build/lidar_perception', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/donfisto/miniconda3/bin/conda', 'STARSHIP_SESSION_KEY': '1306337581170221', 'PYTHONPATH': '/home/donfisto/perception_ws/build/lidar_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/donfisto/perception_ws/install/lidar_perception/lib/python3.12/site-packages:/home/donfisto/gazebo_ws/build/fs_robot_description:/home/donfisto/gazebo_ws/install/fs_robot_description/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'CONDA_PREFIX': '', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/donfisto/gazebo_ws/install/fs_basic_robot:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[0.801598] (-) TimerEvent: {}
+[0.902004] (-) TimerEvent: {}
+[0.942723] (perception_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.002213] (-) TimerEvent: {}
+[1.035918] (perception_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.052471] (lidar_perception) StdoutLine: {'line': b'running develop\n'}
+[1.096185] (perception_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[1.102406] (-) TimerEvent: {}
+[1.106478] (perception_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.189721] (lidar_perception) StdoutLine: {'line': b'running egg_info\n'}
+[1.189898] (lidar_perception) StdoutLine: {'line': b'creating lidar_perception.egg-info\n'}
+[1.195683] (perception_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.202595] (-) TimerEvent: {}
+[1.203212] (lidar_perception) StdoutLine: {'line': b'writing lidar_perception.egg-info/PKG-INFO\n'}
+[1.203378] (lidar_perception) StdoutLine: {'line': b'writing dependency_links to lidar_perception.egg-info/dependency_links.txt\n'}
+[1.203462] (lidar_perception) StdoutLine: {'line': b'writing entry points to lidar_perception.egg-info/entry_points.txt\n'}
+[1.203551] (lidar_perception) StdoutLine: {'line': b'writing requirements to lidar_perception.egg-info/requires.txt\n'}
+[1.203688] (lidar_perception) StdoutLine: {'line': b'writing top-level names to lidar_perception.egg-info/top_level.txt\n'}
+[1.203818] (lidar_perception) StdoutLine: {'line': b"writing manifest file 'lidar_perception.egg-info/SOURCES.txt'\n"}
+[1.230097] (lidar_perception) StdoutLine: {'line': b"reading manifest file 'lidar_perception.egg-info/SOURCES.txt'\n"}
+[1.230538] (lidar_perception) StdoutLine: {'line': b"writing manifest file 'lidar_perception.egg-info/SOURCES.txt'\n"}
+[1.244550] (lidar_perception) StdoutLine: {'line': b'running build_ext\n'}
+[1.244707] (lidar_perception) StdoutLine: {'line': b'Creating /home/donfisto/perception_ws/install/lidar_perception/lib/python3.12/site-packages/lidar-perception.egg-link (link to .)\n'}
+[1.245188] (lidar_perception) StdoutLine: {'line': b'Installing obstacle_node script to /home/donfisto/perception_ws/install/lidar_perception/lib/lidar_perception\n'}
+[1.245554] (lidar_perception) StdoutLine: {'line': b'\n'}
+[1.245726] (lidar_perception) StdoutLine: {'line': b'Installed /home/donfisto/perception_ws/build/lidar_perception\n'}
+[1.246021] (lidar_perception) StdoutLine: {'line': b'running symlink_data\n'}
+[1.246120] (lidar_perception) StdoutLine: {'line': b'creating /home/donfisto/perception_ws/install/lidar_perception/share/ament_index\n'}
+[1.246214] (lidar_perception) StdoutLine: {'line': b'creating /home/donfisto/perception_ws/install/lidar_perception/share/ament_index/resource_index\n'}
+[1.246287] (lidar_perception) StdoutLine: {'line': b'creating /home/donfisto/perception_ws/install/lidar_perception/share/ament_index/resource_index/packages\n'}
+[1.246356] (lidar_perception) StdoutLine: {'line': b'symbolically linking /home/donfisto/perception_ws/build/lidar_perception/resource/lidar_perception -> /home/donfisto/perception_ws/install/lidar_perception/share/ament_index/resource_index/packages\n'}
+[1.246437] (lidar_perception) StdoutLine: {'line': b'symbolically linking /home/donfisto/perception_ws/build/lidar_perception/package.xml -> /home/donfisto/perception_ws/install/lidar_perception/share/lidar_perception\n'}
+[1.270275] (perception_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[1.272846] (lidar_perception) CommandEnded: {'returncode': 0}
+[1.274072] (perception_msgs) StdoutLine: {'line': b'-- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[1.282476] (lidar_perception) JobEnded: {'identifier': 'lidar_perception', 'rc': 0}
+[1.302803] (-) TimerEvent: {}
+[1.403110] (-) TimerEvent: {}
+[1.503525] (-) TimerEvent: {}
+[1.603905] (-) TimerEvent: {}
+[1.704321] (-) TimerEvent: {}
+[1.804663] (-) TimerEvent: {}
+[1.905054] (-) TimerEvent: {}
+[2.005549] (-) TimerEvent: {}
+[2.097506] (perception_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[2.105710] (-) TimerEvent: {}
+[2.206037] (-) TimerEvent: {}
+[2.306455] (-) TimerEvent: {}
+[2.406836] (-) TimerEvent: {}
+[2.507184] (-) TimerEvent: {}
+[2.607580] (-) TimerEvent: {}
+[2.707957] (-) TimerEvent: {}
+[2.711550] (perception_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.808126] (-) TimerEvent: {}
+[2.908520] (-) TimerEvent: {}
+[3.008917] (-) TimerEvent: {}
+[3.109369] (-) TimerEvent: {}
+[3.209670] (-) TimerEvent: {}
+[3.310062] (-) TimerEvent: {}
+[3.410524] (-) TimerEvent: {}
+[3.509170] (perception_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.510610] (-) TimerEvent: {}
+[3.515099] (perception_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[3.610780] (-) TimerEvent: {}
+[3.695323] (perception_msgs) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[3.710974] (-) TimerEvent: {}
+[3.811219] (-) TimerEvent: {}
+[3.911541] (-) TimerEvent: {}
+[4.011888] (-) TimerEvent: {}
+[4.112330] (-) TimerEvent: {}
+[4.212656] (-) TimerEvent: {}
+[4.277585] (perception_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[4.312741] (-) TimerEvent: {}
+[4.390743] (perception_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[4.397233] (perception_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[4.412903] (-) TimerEvent: {}
+[4.436875] (perception_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.438774] (perception_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.443929] (perception_msgs) StdoutLine: {'line': b'-- Configuring done (4.2s)\n'}
+[4.489162] (perception_msgs) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[4.503588] (perception_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/donfisto/perception_ws/build/perception_msgs\n'}
+[4.513091] (-) TimerEvent: {}
+[4.519908] (perception_msgs) CommandEnded: {'returncode': 0}
+[4.520385] (perception_msgs) JobProgress: {'identifier': 'perception_msgs', 'progress': 'build'}
+[4.520419] (perception_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/donfisto/perception_ws/build/perception_msgs', '--', '-j24', '-l24'], 'cwd': '/home/donfisto/perception_ws/build/perception_msgs', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'CONDA_PROMPT_MODIFIER': '', 'USER': 'donfisto', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'STARSHIP_SHELL': 'zsh', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/donfisto', 'TERMINFO': '/usr/lib/kitty/terminfo', 'OLDPWD': '/home/donfisto/gazebo_ws', 'CONDA_SHLVL': '0', 'DESKTOP_SESSION': 'ubuntu', 'KITTY_INSTALLATION_DIR': '/usr/lib/kitty', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/kitty.desktop', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'MANAGERPID': '3151', 'KITTY_PID': '36380', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'SYSTEMD_EXEC_PID': '3537', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '36380', 'COLORTERM': 'truecolor', '_CE_M': '', '_CONDA_ROOT': '/home/donfisto/miniconda3', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/donfisto/gazebo_ws/install', 'LOGNAME': 'donfisto', 'JOURNAL_STREAM': '9:14289', 'WINDOWID': '44040206', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'ROS_VERSION': '2', 'USERNAME': 'donfisto', 'TERM': 'xterm-kitty', 'KITTY_PUBLIC_KEY': '1:vWut-*P6j+2lA-c*fRIpz0`~F740NdR}`lr=Am2%', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/donfisto/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/donfisto-Vector-16-HX-AI-A2XWHG:@/tmp/.ICE-unix/3494,unix/donfisto-Vector-16-HX-AI-A2XWHG:/tmp/.ICE-unix/3494', 'INVOCATION_ID': '7d2d2d87cada4ac8a6a5372f5a230987', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XDG_MENU_PREFIX': 'gnome-', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XMODIFIERS': '@im=ibus', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'CONDA_PYTHON_EXE': '/home/donfisto/miniconda3/bin/python', 'AMENT_PREFIX_PATH': '/home/donfisto/gazebo_ws/install/fs_robot_description:/home/donfisto/gazebo_ws/install/fs_basic_robot:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'KITTY_WINDOW_ID': '1', 'CONDA_DEFAULT_ENV': '', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', '_CONDA_EXE': '/home/donfisto/miniconda3/bin/conda', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/donfisto/perception_ws/build/perception_msgs', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/donfisto/miniconda3/bin/conda', 'STARSHIP_SESSION_KEY': '1306337581170221', 'PYTHONPATH': '/home/donfisto/gazebo_ws/build/fs_robot_description:/home/donfisto/gazebo_ws/install/fs_robot_description/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'CONDA_PREFIX': '', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/donfisto/gazebo_ws/install/fs_basic_robot:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/donfisto/gazebo_ws/install/fs_robot_description:/opt/ros/jazzy'}), 'shell': False}
+[4.588943] (perception_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[4.589533] (perception_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[4.600432] (perception_msgs) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_symlink_perception_msgs\n'}
+[4.613331] (-) TimerEvent: {}
+[4.713761] (-) TimerEvent: {}
+[4.809218] (perception_msgs) StdoutLine: {'line': b'[  4%] Built target perception_msgs__rosidl_generator_type_description\n'}
+[4.813899] (-) TimerEvent: {}
+[4.818458] (perception_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[4.819441] (perception_msgs) StdoutLine: {'line': b'creating perception_msgs.egg-info\n'}
+[4.819568] (perception_msgs) StdoutLine: {'line': b'[  4%] Built target perception_msgs__rs\n'}
+[4.822837] (perception_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.833252] (perception_msgs) StdoutLine: {'line': b'writing perception_msgs.egg-info/PKG-INFO\n'}
+[4.833397] (perception_msgs) StdoutLine: {'line': b'writing dependency_links to perception_msgs.egg-info/dependency_links.txt\n'}
+[4.833696] (perception_msgs) StdoutLine: {'line': b'writing top-level names to perception_msgs.egg-info/top_level.txt\n'}
+[4.833825] (perception_msgs) StdoutLine: {'line': b"writing manifest file 'perception_msgs.egg-info/SOURCES.txt'\n"}
+[4.836680] (perception_msgs) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.873485] (perception_msgs) StdoutLine: {'line': b"reading manifest file 'perception_msgs.egg-info/SOURCES.txt'\n"}
+[4.874214] (perception_msgs) StdoutLine: {'line': b"writing manifest file 'perception_msgs.egg-info/SOURCES.txt'\n"}
+[4.905299] (perception_msgs) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_build_perception_msgs_egg\n'}
+[4.914120] (-) TimerEvent: {}
+[5.014362] (-) TimerEvent: {}
+[5.089172] (perception_msgs) StdoutLine: {'line': b'[  8%] Built target perception_msgs__cpp\n'}
+[5.109770] (perception_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/perception_msgs__rosidl_generator_c.dir/rosidl_generator_c/perception_msgs/msg/detail/obstacle__description.c.o\x1b[0m\n'}
+[5.110220] (perception_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/perception_msgs__rosidl_generator_c.dir/rosidl_generator_c/perception_msgs/msg/detail/obstacle__type_support.c.o\x1b[0m\n'}
+[5.110589] (perception_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/perception_msgs__rosidl_generator_c.dir/rosidl_generator_c/perception_msgs/msg/detail/obstacle__functions.c.o\x1b[0m\n'}
+[5.110696] (perception_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/perception_msgs__rosidl_generator_c.dir/rosidl_generator_c/perception_msgs/msg/detail/obstacle_array__description.c.o\x1b[0m\n'}
+[5.110779] (perception_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/perception_msgs__rosidl_generator_c.dir/rosidl_generator_c/perception_msgs/msg/detail/obstacle_array__functions.c.o\x1b[0m\n'}
+[5.111129] (perception_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object CMakeFiles/perception_msgs__rosidl_generator_c.dir/rosidl_generator_c/perception_msgs/msg/detail/obstacle_array__type_support.c.o\x1b[0m\n'}
+[5.114574] (-) TimerEvent: {}
+[5.183084] (perception_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32m\x1b[1mLinking C shared library libperception_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[5.214683] (-) TimerEvent: {}
+[5.234172] (perception_msgs) StdoutLine: {'line': b'[ 24%] Built target perception_msgs__rosidl_generator_c\n'}
+[5.248433] (perception_msgs) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.248647] (perception_msgs) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.248735] (perception_msgs) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.248882] (perception_msgs) StdoutLine: {'line': b'[ 33%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.248996] (perception_msgs) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.249502] (perception_msgs) StdoutLine: {'line': b'[ 37%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.314882] (-) TimerEvent: {}
+[5.415308] (-) TimerEvent: {}
+[5.496792] (perception_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/perception_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/perception_msgs/msg/obstacle__type_support.cpp.o\x1b[0m\n'}
+[5.497038] (perception_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/perception_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/perception_msgs/msg/obstacle_array__type_support.cpp.o\x1b[0m\n'}
+[5.499076] (perception_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/perception_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/perception_msgs/msg/obstacle__type_support.cpp.o\x1b[0m\n'}
+[5.499746] (perception_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/perception_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/perception_msgs/msg/obstacle_array__type_support.cpp.o\x1b[0m\n'}
+[5.508989] (perception_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/perception_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/perception_msgs/msg/detail/obstacle__type_support.cpp.o\x1b[0m\n'}
+[5.509172] (perception_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/perception_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/perception_msgs/msg/detail/obstacle_array__type_support.cpp.o\x1b[0m\n'}
+[5.515421] (-) TimerEvent: {}
+[5.517091] (perception_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/perception_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/perception_msgs/msg/detail/obstacle__type_support.c.o\x1b[0m\n'}
+[5.517322] (perception_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/perception_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/perception_msgs/msg/detail/obstacle_array__type_support.c.o\x1b[0m\n'}
+[5.534494] (perception_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/perception_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/perception_msgs/msg/detail/obstacle__type_support_c.cpp.o\x1b[0m\n'}
+[5.534948] (perception_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/perception_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/perception_msgs/msg/detail/obstacle_array__type_support_c.cpp.o\x1b[0m\n'}
+[5.563400] (perception_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/perception_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/perception_msgs/msg/detail/dds_fastrtps/obstacle__type_support.cpp.o\x1b[0m\n'}
+[5.563704] (perception_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/perception_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/perception_msgs/msg/detail/dds_fastrtps/obstacle_array__type_support.cpp.o\x1b[0m\n'}
+[5.566808] (perception_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libperception_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.568156] (perception_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking C shared library libperception_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.609761] (perception_msgs) StdoutLine: {'line': b'[ 68%] Built target perception_msgs__rosidl_typesupport_introspection_c\n'}
+[5.615504] (-) TimerEvent: {}
+[5.620483] (perception_msgs) StdoutLine: {'line': b'[ 68%] Built target perception_msgs__rosidl_typesupport_c\n'}
+[5.715654] (-) TimerEvent: {}
+[5.816097] (-) TimerEvent: {}
+[5.825026] (perception_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libperception_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.829051] (perception_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libperception_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.884554] (perception_msgs) StdoutLine: {'line': b'[ 73%] Built target perception_msgs__rosidl_typesupport_cpp\n'}
+[5.916306] (-) TimerEvent: {}
+[5.924078] (perception_msgs) StdoutLine: {'line': b'[ 73%] Built target perception_msgs__rosidl_typesupport_introspection_cpp\n'}
+[5.982402] (perception_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libperception_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.016540] (-) TimerEvent: {}
+[6.042700] (perception_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libperception_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[6.048706] (perception_msgs) StdoutLine: {'line': b'[ 77%] Built target perception_msgs__rosidl_typesupport_fastrtps_c\n'}
+[6.116701] (-) TimerEvent: {}
+[6.145929] (perception_msgs) StdoutLine: {'line': b'[ 77%] Built target perception_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[6.174888] (perception_msgs) StdoutLine: {'line': b'[ 77%] Built target perception_msgs\n'}
+[6.202290] (perception_msgs) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[6.216877] (-) TimerEvent: {}
+[6.317206] (-) TimerEvent: {}
+[6.417549] (-) TimerEvent: {}
+[6.508002] (perception_msgs) StdoutLine: {'line': b'[ 80%] Built target perception_msgs__py\n'}
+[6.517722] (-) TimerEvent: {}
+[6.535482] (perception_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/perception_msgs__rosidl_generator_py.dir/rosidl_generator_py/perception_msgs/msg/_obstacle_s.c.o\x1b[0m\n'}
+[6.535937] (perception_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/perception_msgs__rosidl_generator_py.dir/rosidl_generator_py/perception_msgs/msg/_obstacle_array_s.c.o\x1b[0m\n'}
+[6.617936] (-) TimerEvent: {}
+[6.703129] (perception_msgs) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking C shared library libperception_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[6.718093] (-) TimerEvent: {}
+[6.762519] (perception_msgs) StdoutLine: {'line': b'[ 86%] Built target perception_msgs__rosidl_generator_py\n'}
+[6.792448] (perception_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/perception_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/perception_msgs/_perception_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[6.792668] (perception_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/perception_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/perception_msgs/_perception_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[6.794807] (perception_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/perception_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/perception_msgs/_perception_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[6.818263] (-) TimerEvent: {}
+[6.918647] (-) TimerEvent: {}
+[6.921166] (perception_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/perception_msgs/perception_msgs_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.921389] (perception_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/perception_msgs/perception_msgs_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.926208] (perception_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/perception_msgs/perception_msgs_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.962501] (perception_msgs) StdoutLine: {'line': b'[100%] Built target perception_msgs_s__rosidl_typesupport_introspection_c\n'}
+[6.962778] (perception_msgs) StdoutLine: {'line': b'[100%] Built target perception_msgs_s__rosidl_typesupport_c\n'}
+[6.967798] (perception_msgs) StdoutLine: {'line': b'[100%] Built target perception_msgs_s__rosidl_typesupport_fastrtps_c\n'}
+[6.982871] (perception_msgs) CommandEnded: {'returncode': 0}
+[6.983445] (perception_msgs) JobProgress: {'identifier': 'perception_msgs', 'progress': 'install'}
+[6.994998] (perception_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/donfisto/perception_ws/build/perception_msgs'], 'cwd': '/home/donfisto/perception_ws/build/perception_msgs', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'CONDA_PROMPT_MODIFIER': '', 'USER': 'donfisto', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'STARSHIP_SHELL': 'zsh', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/donfisto', 'TERMINFO': '/usr/lib/kitty/terminfo', 'OLDPWD': '/home/donfisto/gazebo_ws', 'CONDA_SHLVL': '0', 'DESKTOP_SESSION': 'ubuntu', 'KITTY_INSTALLATION_DIR': '/usr/lib/kitty', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/kitty.desktop', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'MANAGERPID': '3151', 'KITTY_PID': '36380', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'SYSTEMD_EXEC_PID': '3537', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '36380', 'COLORTERM': 'truecolor', '_CE_M': '', '_CONDA_ROOT': '/home/donfisto/miniconda3', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/donfisto/gazebo_ws/install', 'LOGNAME': 'donfisto', 'JOURNAL_STREAM': '9:14289', 'WINDOWID': '44040206', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'ROS_VERSION': '2', 'USERNAME': 'donfisto', 'TERM': 'xterm-kitty', 'KITTY_PUBLIC_KEY': '1:vWut-*P6j+2lA-c*fRIpz0`~F740NdR}`lr=Am2%', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/donfisto/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/donfisto-Vector-16-HX-AI-A2XWHG:@/tmp/.ICE-unix/3494,unix/donfisto-Vector-16-HX-AI-A2XWHG:/tmp/.ICE-unix/3494', 'INVOCATION_ID': '7d2d2d87cada4ac8a6a5372f5a230987', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XDG_MENU_PREFIX': 'gnome-', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XMODIFIERS': '@im=ibus', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'CONDA_PYTHON_EXE': '/home/donfisto/miniconda3/bin/python', 'AMENT_PREFIX_PATH': '/home/donfisto/gazebo_ws/install/fs_robot_description:/home/donfisto/gazebo_ws/install/fs_basic_robot:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'KITTY_WINDOW_ID': '1', 'CONDA_DEFAULT_ENV': '', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', '_CONDA_EXE': '/home/donfisto/miniconda3/bin/conda', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/donfisto/perception_ws/build/perception_msgs', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/donfisto/miniconda3/bin/conda', 'STARSHIP_SESSION_KEY': '1306337581170221', 'PYTHONPATH': '/home/donfisto/gazebo_ws/build/fs_robot_description:/home/donfisto/gazebo_ws/install/fs_robot_description/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'CONDA_PREFIX': '', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/donfisto/gazebo_ws/install/fs_basic_robot:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/donfisto/gazebo_ws/install/fs_robot_description:/opt/ros/jazzy'}), 'shell': False}
+[7.005351] (perception_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.006238] (perception_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.006751] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/ament_index/resource_index/rosidl_interfaces/perception_msgs\n'}
+[7.017300] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/msg/Obstacle.json\n'}
+[7.018716] (-) TimerEvent: {}
+[7.027691] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/msg/ObstacleArray.json\n'}
+[7.038440] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/detail/obstacle__functions.h\n'}
+[7.048790] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/detail/obstacle__struct.h\n'}
+[7.059078] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/detail/obstacle__type_support.h\n'}
+[7.069503] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/detail/obstacle_array__functions.h\n'}
+[7.079434] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/detail/obstacle_array__struct.h\n'}
+[7.089322] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/detail/obstacle_array__type_support.h\n'}
+[7.099799] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/obstacle.h\n'}
+[7.109681] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/obstacle_array.h\n'}
+[7.118875] (-) TimerEvent: {}
+[7.119718] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.129779] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/environment/library_path.sh\n'}
+[7.140021] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/environment/library_path.dsv\n'}
+[7.150829] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/detail/obstacle__rosidl_typesupport_fastrtps_c.h\n'}
+[7.160670] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/detail/obstacle_array__rosidl_typesupport_fastrtps_c.h\n'}
+[7.171280] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.182855] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/detail/obstacle__rosidl_typesupport_introspection_c.h\n'}
+[7.193833] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/detail/obstacle_array__rosidl_typesupport_introspection_c.h\n'}
+[7.204510] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.215546] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/detail/obstacle__builder.hpp\n'}
+[7.219054] (-) TimerEvent: {}
+[7.226049] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/detail/obstacle__struct.hpp\n'}
+[7.237164] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/detail/obstacle__traits.hpp\n'}
+[7.247937] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/detail/obstacle__type_support.hpp\n'}
+[7.259338] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/detail/obstacle_array__builder.hpp\n'}
+[7.271061] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/detail/obstacle_array__struct.hpp\n'}
+[7.281365] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/detail/obstacle_array__traits.hpp\n'}
+[7.291730] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/detail/obstacle_array__type_support.hpp\n'}
+[7.302529] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/obstacle.hpp\n'}
+[7.313006] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/obstacle_array.hpp\n'}
+[7.319238] (-) TimerEvent: {}
+[7.323790] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[7.335150] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/detail/obstacle__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.345647] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/detail/obstacle_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.356008] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.366544] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/detail/obstacle__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.377614] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/detail/obstacle_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.388788] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/environment/pythonpath.sh\n'}
+[7.399642] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/environment/pythonpath.dsv\n'}
+[7.410662] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/lib/python3.12/site-packages/perception_msgs-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[7.419406] (-) TimerEvent: {}
+[7.421211] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/lib/python3.12/site-packages/perception_msgs-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[7.431744] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/lib/python3.12/site-packages/perception_msgs-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[7.442305] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/lib/python3.12/site-packages/perception_msgs-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[7.453659] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/lib/python3.12/site-packages/perception_msgs/__init__.py\n'}
+[7.463953] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/lib/python3.12/site-packages/perception_msgs/_perception_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[7.474292] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/lib/python3.12/site-packages/perception_msgs/_perception_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[7.484814] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/lib/python3.12/site-packages/perception_msgs/_perception_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[7.495159] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/lib/python3.12/site-packages/perception_msgs/msg/__init__.py\n'}
+[7.505639] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/lib/python3.12/site-packages/perception_msgs/msg/_obstacle.py\n'}
+[7.516076] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/lib/python3.12/site-packages/perception_msgs/msg/_obstacle_array.py\n'}
+[7.519490] (-) TimerEvent: {}
+[7.526720] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/lib/python3.12/site-packages/perception_msgs/msg/_obstacle_array_s.c\n'}
+[7.536875] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/lib/python3.12/site-packages/perception_msgs/msg/_obstacle_s.c\n'}
+[7.547336] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/lib/python3.12/site-packages/perception_msgs/perception_msgs_s__rosidl_typesupport_c.so\n'}
+[7.557542] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/lib/python3.12/site-packages/perception_msgs/perception_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[7.567741] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/lib/python3.12/site-packages/perception_msgs/perception_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[7.579800] (perception_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/donfisto/perception_ws/install/perception_msgs/lib/python3.12/site-packages/perception_msgs/perception_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[7.580023] (perception_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/donfisto/perception_ws/install/perception_msgs/lib/python3.12/site-packages/perception_msgs/perception_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[7.580368] (perception_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/donfisto/perception_ws/install/perception_msgs/lib/python3.12/site-packages/perception_msgs/perception_msgs_s__rosidl_typesupport_c.so\n'}
+[7.580558] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/ament_index/resource_index/rust_packages/perception_msgs\n'}
+[7.592183] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/rust/Cargo.toml\n'}
+[7.602811] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/rust/build.rs\n'}
+[7.612990] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/rust/src/lib.rs\n'}
+[7.619674] (-) TimerEvent: {}
+[7.623191] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/rust/src/msg.rs\n'}
+[7.633723] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/rust/src/msg/rmw.rs\n'}
+[7.643968] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/msg/Obstacle.idl\n'}
+[7.654173] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/msg/ObstacleArray.idl\n'}
+[7.664177] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/msg/Obstacle.msg\n'}
+[7.674229] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/msg/ObstacleArray.msg\n'}
+[7.684880] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/ament_index/resource_index/package_run_dependencies/perception_msgs\n'}
+[7.695447] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/ament_index/resource_index/parent_prefix_path/perception_msgs\n'}
+[7.705851] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/environment/ament_prefix_path.sh\n'}
+[7.715691] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/environment/ament_prefix_path.dsv\n'}
+[7.719837] (-) TimerEvent: {}
+[7.725524] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/environment/path.sh\n'}
+[7.735544] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/environment/path.dsv\n'}
+[7.745660] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/local_setup.bash\n'}
+[7.755763] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/local_setup.sh\n'}
+[7.765712] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/local_setup.zsh\n'}
+[7.776959] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/local_setup.dsv\n'}
+[7.787611] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/package.dsv\n'}
+[7.798289] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/ament_index/resource_index/packages/perception_msgs\n'}
+[7.808932] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[7.819673] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.819901] (-) TimerEvent: {}
+[7.830237] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.840845] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.851464] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.861768] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.871856] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.882746] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/cmake/perception_msgsConfig.cmake\n'}
+[7.893649] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/cmake/perception_msgsConfig-version.cmake\n'}
+[7.904030] (perception_msgs) StdoutLine: {'line': b'-- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/package.xml\n'}
+[7.914501] (perception_msgs) StdoutLine: {'line': b'-- Installing: /home/donfisto/perception_ws/install/perception_msgs/lib/libperception_msgs__rosidl_generator_c.so\n'}
+[7.914969] (perception_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/donfisto/perception_ws/install/perception_msgs/lib/libperception_msgs__rosidl_generator_c.so" to ""\n'}
+[7.915153] (perception_msgs) StdoutLine: {'line': b'-- Installing: /home/donfisto/perception_ws/install/perception_msgs/lib/libperception_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[7.915461] (perception_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/donfisto/perception_ws/install/perception_msgs/lib/libperception_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[7.915617] (perception_msgs) StdoutLine: {'line': b'-- Installing: /home/donfisto/perception_ws/install/perception_msgs/lib/libperception_msgs__rosidl_typesupport_introspection_c.so\n'}
+[7.915917] (perception_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/donfisto/perception_ws/install/perception_msgs/lib/libperception_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[7.916088] (perception_msgs) StdoutLine: {'line': b'-- Installing: /home/donfisto/perception_ws/install/perception_msgs/lib/libperception_msgs__rosidl_typesupport_c.so\n'}
+[7.916199] (perception_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/donfisto/perception_ws/install/perception_msgs/lib/libperception_msgs__rosidl_typesupport_c.so" to ""\n'}
+[7.916287] (perception_msgs) StdoutLine: {'line': b'-- Installing: /home/donfisto/perception_ws/install/perception_msgs/lib/libperception_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.916347] (perception_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/donfisto/perception_ws/install/perception_msgs/lib/libperception_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[7.916446] (perception_msgs) StdoutLine: {'line': b'-- Installing: /home/donfisto/perception_ws/install/perception_msgs/lib/libperception_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[7.916898] (perception_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/donfisto/perception_ws/install/perception_msgs/lib/libperception_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[7.917073] (perception_msgs) StdoutLine: {'line': b'-- Installing: /home/donfisto/perception_ws/install/perception_msgs/lib/libperception_msgs__rosidl_typesupport_cpp.so\n'}
+[7.917206] (perception_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/donfisto/perception_ws/install/perception_msgs/lib/libperception_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[7.920063] (-) TimerEvent: {}
+[7.970898] (perception_msgs) StdoutLine: {'line': b"Listing '/home/donfisto/perception_ws/install/perception_msgs/lib/python3.12/site-packages/perception_msgs'...\n"}
+[7.971060] (perception_msgs) StdoutLine: {'line': b"Compiling '/home/donfisto/perception_ws/install/perception_msgs/lib/python3.12/site-packages/perception_msgs/__init__.py'...\n"}
+[7.971150] (perception_msgs) StdoutLine: {'line': b"Listing '/home/donfisto/perception_ws/install/perception_msgs/lib/python3.12/site-packages/perception_msgs/msg'...\n"}
+[7.971211] (perception_msgs) StdoutLine: {'line': b"Compiling '/home/donfisto/perception_ws/install/perception_msgs/lib/python3.12/site-packages/perception_msgs/msg/__init__.py'...\n"}
+[7.971267] (perception_msgs) StdoutLine: {'line': b"Compiling '/home/donfisto/perception_ws/install/perception_msgs/lib/python3.12/site-packages/perception_msgs/msg/_obstacle.py'...\n"}
+[7.971317] (perception_msgs) StdoutLine: {'line': b"Compiling '/home/donfisto/perception_ws/install/perception_msgs/lib/python3.12/site-packages/perception_msgs/msg/_obstacle_array.py'...\n"}
+[7.978085] (perception_msgs) StdoutLine: {'line': b'-- Installing: /home/donfisto/perception_ws/install/perception_msgs/lib/libperception_msgs__rosidl_generator_py.so\n'}
+[7.978533] (perception_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/donfisto/perception_ws/install/perception_msgs/lib/libperception_msgs__rosidl_generator_py.so" to ""\n'}
+[7.978705] (perception_msgs) StdoutLine: {'line': b'-- Installing: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/cmake/export_perception_msgs__rosidl_generator_cExport.cmake\n'}
+[7.979043] (perception_msgs) StdoutLine: {'line': b'-- Installing: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/cmake/export_perception_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.979231] (perception_msgs) StdoutLine: {'line': b'-- Installing: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/cmake/export_perception_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[7.979302] (perception_msgs) StdoutLine: {'line': b'-- Installing: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/cmake/export_perception_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[7.979364] (perception_msgs) StdoutLine: {'line': b'-- Installing: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/cmake/perception_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.979526] (perception_msgs) StdoutLine: {'line': b'-- Installing: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/cmake/perception_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.979674] (perception_msgs) StdoutLine: {'line': b'-- Installing: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/cmake/perception_msgs__rosidl_typesupport_cExport.cmake\n'}
+[7.979754] (perception_msgs) StdoutLine: {'line': b'-- Installing: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/cmake/perception_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.979820] (perception_msgs) StdoutLine: {'line': b'-- Installing: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/cmake/export_perception_msgs__rosidl_generator_cppExport.cmake\n'}
+[7.980096] (perception_msgs) StdoutLine: {'line': b'-- Installing: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/cmake/export_perception_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[7.980271] (perception_msgs) StdoutLine: {'line': b'-- Installing: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/cmake/export_perception_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[7.980347] (perception_msgs) StdoutLine: {'line': b'-- Installing: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/cmake/perception_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.980427] (perception_msgs) StdoutLine: {'line': b'-- Installing: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/cmake/perception_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.980563] (perception_msgs) StdoutLine: {'line': b'-- Installing: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/cmake/perception_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[7.980651] (perception_msgs) StdoutLine: {'line': b'-- Installing: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/cmake/perception_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.980709] (perception_msgs) StdoutLine: {'line': b'-- Installing: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/cmake/export_perception_msgs__rosidl_generator_pyExport.cmake\n'}
+[7.980767] (perception_msgs) StdoutLine: {'line': b'-- Installing: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/cmake/export_perception_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[7.983472] (perception_msgs) CommandEnded: {'returncode': 0}
+[8.004881] (perception_msgs) JobEnded: {'identifier': 'perception_msgs', 'rc': 0}
+[8.005767] (-) EventReactorShutdown: {}

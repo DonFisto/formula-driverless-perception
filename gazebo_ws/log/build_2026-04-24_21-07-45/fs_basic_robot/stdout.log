@@ -1,0 +1,19 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/donfisto/gazebo_ws/install/fs_basic_robot/share/fs_basic_robot/launch/sim.launch.py
+-- Up-to-date symlink: /home/donfisto/gazebo_ws/install/fs_basic_robot/share/fs_basic_robot/urdf/fs_basic_lidar.urdf
+-- Up-to-date symlink: /home/donfisto/gazebo_ws/install/fs_basic_robot/share/ament_index/resource_index/package_run_dependencies/fs_basic_robot
+-- Up-to-date symlink: /home/donfisto/gazebo_ws/install/fs_basic_robot/share/ament_index/resource_index/parent_prefix_path/fs_basic_robot
+-- Up-to-date symlink: /home/donfisto/gazebo_ws/install/fs_basic_robot/share/fs_basic_robot/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/donfisto/gazebo_ws/install/fs_basic_robot/share/fs_basic_robot/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/donfisto/gazebo_ws/install/fs_basic_robot/share/fs_basic_robot/environment/path.sh
+-- Up-to-date symlink: /home/donfisto/gazebo_ws/install/fs_basic_robot/share/fs_basic_robot/environment/path.dsv
+-- Up-to-date symlink: /home/donfisto/gazebo_ws/install/fs_basic_robot/share/fs_basic_robot/local_setup.bash
+-- Up-to-date symlink: /home/donfisto/gazebo_ws/install/fs_basic_robot/share/fs_basic_robot/local_setup.sh
+-- Up-to-date symlink: /home/donfisto/gazebo_ws/install/fs_basic_robot/share/fs_basic_robot/local_setup.zsh
+-- Up-to-date symlink: /home/donfisto/gazebo_ws/install/fs_basic_robot/share/fs_basic_robot/local_setup.dsv
+-- Symlinking: /home/donfisto/gazebo_ws/install/fs_basic_robot/share/fs_basic_robot/package.dsv
+-- Up-to-date symlink: /home/donfisto/gazebo_ws/install/fs_basic_robot/share/ament_index/resource_index/packages/fs_basic_robot
+-- Up-to-date symlink: /home/donfisto/gazebo_ws/install/fs_basic_robot/share/fs_basic_robot/cmake/fs_basic_robotConfig.cmake
+-- Up-to-date symlink: /home/donfisto/gazebo_ws/install/fs_basic_robot/share/fs_basic_robot/cmake/fs_basic_robotConfig-version.cmake
+-- Up-to-date symlink: /home/donfisto/gazebo_ws/install/fs_basic_robot/share/fs_basic_robot/package.xml

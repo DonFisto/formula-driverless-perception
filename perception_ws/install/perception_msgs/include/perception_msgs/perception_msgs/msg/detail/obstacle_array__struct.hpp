@@ -1,0 +1,1 @@
+/home/donfisto/perception_ws/build/perception_msgs/rosidl_generator_cpp/perception_msgs/msg/detail/obstacle_array__struct.hpp

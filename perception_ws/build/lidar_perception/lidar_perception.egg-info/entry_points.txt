@@ -1,0 +1,5 @@
+[console_scripts]
+obstacle_node = lidar_perception.obstacle_node:main
+occupancy_grid_node = lidar_perception.occupancy_grid_node:main
+reactive_navigation_node = lidar_perception.reactive_navigation_node:main
+scan_to_cloud_node = lidar_perception.scan_to_cloud_node:main

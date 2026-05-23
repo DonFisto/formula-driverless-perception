@@ -1,0 +1,16 @@
+/home/donfisto/gazebo_ws/install/fs_robot_description_jazzy/share/fs_robot_description_jazzy/worlds/flexirover_world.sdf
+/home/donfisto/gazebo_ws/install/fs_robot_description_jazzy/share/ament_index/resource_index/package_run_dependencies/fs_robot_description_jazzy
+/home/donfisto/gazebo_ws/install/fs_robot_description_jazzy/share/ament_index/resource_index/parent_prefix_path/fs_robot_description_jazzy
+/home/donfisto/gazebo_ws/install/fs_robot_description_jazzy/share/fs_robot_description_jazzy/environment/ament_prefix_path.sh
+/home/donfisto/gazebo_ws/install/fs_robot_description_jazzy/share/fs_robot_description_jazzy/environment/ament_prefix_path.dsv
+/home/donfisto/gazebo_ws/install/fs_robot_description_jazzy/share/fs_robot_description_jazzy/environment/path.sh
+/home/donfisto/gazebo_ws/install/fs_robot_description_jazzy/share/fs_robot_description_jazzy/environment/path.dsv
+/home/donfisto/gazebo_ws/install/fs_robot_description_jazzy/share/fs_robot_description_jazzy/local_setup.bash
+/home/donfisto/gazebo_ws/install/fs_robot_description_jazzy/share/fs_robot_description_jazzy/local_setup.sh
+/home/donfisto/gazebo_ws/install/fs_robot_description_jazzy/share/fs_robot_description_jazzy/local_setup.zsh
+/home/donfisto/gazebo_ws/install/fs_robot_description_jazzy/share/fs_robot_description_jazzy/local_setup.dsv
+/home/donfisto/gazebo_ws/install/fs_robot_description_jazzy/share/fs_robot_description_jazzy/package.dsv
+/home/donfisto/gazebo_ws/install/fs_robot_description_jazzy/share/ament_index/resource_index/packages/fs_robot_description_jazzy
+/home/donfisto/gazebo_ws/install/fs_robot_description_jazzy/share/fs_robot_description_jazzy/cmake/fs_robot_description_jazzyConfig.cmake
+/home/donfisto/gazebo_ws/install/fs_robot_description_jazzy/share/fs_robot_description_jazzy/cmake/fs_robot_description_jazzyConfig-version.cmake
+/home/donfisto/gazebo_ws/install/fs_robot_description_jazzy/share/fs_robot_description_jazzy/package.xml

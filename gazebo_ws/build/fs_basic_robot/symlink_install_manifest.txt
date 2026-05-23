@@ -1,0 +1,17 @@
+/home/donfisto/gazebo_ws/install/fs_basic_robot/share/fs_basic_robot/launch/sim.launch.py
+/home/donfisto/gazebo_ws/install/fs_basic_robot/share/fs_basic_robot/urdf/fs_basic_lidar.urdf
+/home/donfisto/gazebo_ws/install/fs_basic_robot/share/ament_index/resource_index/package_run_dependencies/fs_basic_robot
+/home/donfisto/gazebo_ws/install/fs_basic_robot/share/ament_index/resource_index/parent_prefix_path/fs_basic_robot
+/home/donfisto/gazebo_ws/install/fs_basic_robot/share/fs_basic_robot/environment/ament_prefix_path.sh
+/home/donfisto/gazebo_ws/install/fs_basic_robot/share/fs_basic_robot/environment/ament_prefix_path.dsv
+/home/donfisto/gazebo_ws/install/fs_basic_robot/share/fs_basic_robot/environment/path.sh
+/home/donfisto/gazebo_ws/install/fs_basic_robot/share/fs_basic_robot/environment/path.dsv
+/home/donfisto/gazebo_ws/install/fs_basic_robot/share/fs_basic_robot/local_setup.bash
+/home/donfisto/gazebo_ws/install/fs_basic_robot/share/fs_basic_robot/local_setup.sh
+/home/donfisto/gazebo_ws/install/fs_basic_robot/share/fs_basic_robot/local_setup.zsh
+/home/donfisto/gazebo_ws/install/fs_basic_robot/share/fs_basic_robot/local_setup.dsv
+/home/donfisto/gazebo_ws/install/fs_basic_robot/share/fs_basic_robot/package.dsv
+/home/donfisto/gazebo_ws/install/fs_basic_robot/share/ament_index/resource_index/packages/fs_basic_robot
+/home/donfisto/gazebo_ws/install/fs_basic_robot/share/fs_basic_robot/cmake/fs_basic_robotConfig.cmake
+/home/donfisto/gazebo_ws/install/fs_basic_robot/share/fs_basic_robot/cmake/fs_basic_robotConfig-version.cmake
+/home/donfisto/gazebo_ws/install/fs_basic_robot/share/fs_basic_robot/package.xml

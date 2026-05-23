@@ -1,0 +1,10 @@
+build/
+install/
+log/
+
+gazebo_ws/
+perception_ws/
+
+*.pyc
+__pycache__/
+*.swp

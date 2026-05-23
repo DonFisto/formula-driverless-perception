@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-098ccf9bafc11324b92c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "perception_msgs__py",
+					"jsonFile" : "directory-perception_msgs__py-bbb0234c2d910058867d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/donfisto/perception_ws/build/perception_msgs/perception_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "perception_msgs__rs",
+					"jsonFile" : "directory-perception_msgs__rs-4be6f0ae648b7beb29e1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/donfisto/perception_ws/build/perception_msgs/perception_msgs__rs",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "perception_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_perception_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_perception_msgs_egg-be81023071fe37733fc8.json",
+					"name" : "ament_cmake_python_build_perception_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_perception_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_perception_msgs-a03b026cf7ad49835253.json",
+					"name" : "ament_cmake_python_symlink_perception_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "perception_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-perception_msgs-ce4c6201f8246adfd633.json",
+					"name" : "perception_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "perception_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-perception_msgs__cpp-6d862442ac583b5fa2b0.json",
+					"name" : "perception_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "perception_msgs__py::@d2d9792964d7811a7348",
+					"jsonFile" : "target-perception_msgs__py-2f3d0a772d70d13dfcbf.json",
+					"name" : "perception_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "perception_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-perception_msgs__rosidl_generator_c-4c9e34a3476dce2ea810.json",
+					"name" : "perception_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "perception_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-perception_msgs__rosidl_generator_py-364f94e9959900492617.json",
+					"name" : "perception_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "perception_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-perception_msgs__rosidl_generator_type_description-c0d84ada447cc59ee430.json",
+					"name" : "perception_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "perception_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-perception_msgs__rosidl_typesupport_c-2066af0fc257b18e896c.json",
+					"name" : "perception_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "perception_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-perception_msgs__rosidl_typesupport_cpp-c8f482f7175137b4f82e.json",
+					"name" : "perception_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "perception_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-perception_msgs__rosidl_typesupport_fastrtps_c-7cfe8f3f02d2bd5c4f64.json",
+					"name" : "perception_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "perception_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-perception_msgs__rosidl_typesupport_fastrtps_cpp-0f0f2b399682665473c8.json",
+					"name" : "perception_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "perception_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-perception_msgs__rosidl_typesupport_introspection_c-b33991766c404a698934.json",
+					"name" : "perception_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "perception_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-perception_msgs__rosidl_typesupport_introspection_cpp-60a56da4d235bcb521e2.json",
+					"name" : "perception_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "perception_msgs__rs::@2173a1d3b4c072982d71",
+					"jsonFile" : "target-perception_msgs__rs-d4e599220568ea70da7a.json",
+					"name" : "perception_msgs__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "perception_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-perception_msgs_s__rosidl_typesupport_c-c1b908f16889d95f3f27.json",
+					"name" : "perception_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "perception_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-perception_msgs_s__rosidl_typesupport_fastrtps_c-3aa8d62b26bd7e295a37.json",
+					"name" : "perception_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "perception_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-perception_msgs_s__rosidl_typesupport_introspection_c-973edf64e23abac37967.json",
+					"name" : "perception_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "perception_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-perception_msgs_uninstall-228f20d3fd7d37c508cf.json",
+					"name" : "perception_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b0b06b47fa802956302f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/donfisto/perception_ws/build/perception_msgs",
+		"source" : "/home/donfisto/perception_ws/src/perception_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

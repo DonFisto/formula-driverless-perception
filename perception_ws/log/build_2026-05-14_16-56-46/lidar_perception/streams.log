@@ -1,0 +1,18 @@
+[0.585s] Invoking command in '/home/donfisto/perception_ws/build/lidar_perception': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/donfisto/perception_ws/build/lidar_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/donfisto/perception_ws/install/lidar_perception/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/donfisto/perception_ws/build/lidar_perception/build --no-deps symlink_data
+[0.760s] running develop
+[0.865s] running egg_info
+[0.875s] writing lidar_perception.egg-info/PKG-INFO
+[0.875s] writing dependency_links to lidar_perception.egg-info/dependency_links.txt
+[0.875s] writing entry points to lidar_perception.egg-info/entry_points.txt
+[0.875s] writing requirements to lidar_perception.egg-info/requires.txt
+[0.875s] writing top-level names to lidar_perception.egg-info/top_level.txt
+[0.893s] reading manifest file 'lidar_perception.egg-info/SOURCES.txt'
+[0.894s] writing manifest file 'lidar_perception.egg-info/SOURCES.txt'
+[0.904s] running build_ext
+[0.905s] Creating /home/donfisto/perception_ws/install/lidar_perception/lib/python3.12/site-packages/lidar-perception.egg-link (link to .)
+[0.905s] Installing obstacle_node script to /home/donfisto/perception_ws/install/lidar_perception/lib/lidar_perception
+[0.905s] Installing scan_to_cloud_node script to /home/donfisto/perception_ws/install/lidar_perception/lib/lidar_perception
+[0.905s] 
+[0.905s] Installed /home/donfisto/perception_ws/build/lidar_perception
+[0.905s] running symlink_data
+[0.924s] Invoked command in '/home/donfisto/perception_ws/build/lidar_perception' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/donfisto/perception_ws/build/lidar_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/donfisto/perception_ws/install/lidar_perception/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/donfisto/perception_ws/build/lidar_perception/build --no-deps symlink_data

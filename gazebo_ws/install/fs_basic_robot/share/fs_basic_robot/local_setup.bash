@@ -1,0 +1,1 @@
+/home/donfisto/gazebo_ws/build/fs_basic_robot/ament_cmake_environment_hooks/local_setup.bash

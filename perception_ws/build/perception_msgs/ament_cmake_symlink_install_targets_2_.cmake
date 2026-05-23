@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/donfisto/perception_ws/build/perception_msgs/rosidl_generator_py/perception_msgs/perception_msgs_s__rosidl_typesupport_c.so" "TARGETS" "perception_msgs_s__rosidl_typesupport_c" "DESTINATION" "lib/python3.12/site-packages/perception_msgs")

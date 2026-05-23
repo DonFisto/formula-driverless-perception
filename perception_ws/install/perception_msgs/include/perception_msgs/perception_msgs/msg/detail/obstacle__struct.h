@@ -1,0 +1,1 @@
+/home/donfisto/perception_ws/build/perception_msgs/rosidl_generator_c/perception_msgs/msg/detail/obstacle__struct.h

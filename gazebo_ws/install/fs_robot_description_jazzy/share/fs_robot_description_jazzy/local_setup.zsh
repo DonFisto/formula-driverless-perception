@@ -1,0 +1,1 @@
+/home/donfisto/gazebo_ws/build/fs_robot_description_jazzy/ament_cmake_environment_hooks/local_setup.zsh

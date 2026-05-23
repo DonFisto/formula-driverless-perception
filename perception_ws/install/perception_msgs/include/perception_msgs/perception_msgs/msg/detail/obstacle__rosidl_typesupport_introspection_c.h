@@ -1,0 +1,1 @@
+/home/donfisto/perception_ws/build/perception_msgs/rosidl_typesupport_introspection_c/perception_msgs/msg/detail/obstacle__rosidl_typesupport_introspection_c.h

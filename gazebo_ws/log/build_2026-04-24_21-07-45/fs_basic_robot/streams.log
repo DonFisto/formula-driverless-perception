@@ -1,0 +1,23 @@
+[0.013s] Invoking command in '/home/donfisto/gazebo_ws/build/fs_basic_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/donfisto/perception_ws/install/lidar_perception:/home/donfisto/gazebo_ws/install/fs_robot_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/donfisto/gazebo_ws/build/fs_basic_robot -- -j24 -l24
+[0.231s] Invoked command in '/home/donfisto/gazebo_ws/build/fs_basic_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/donfisto/perception_ws/install/lidar_perception:/home/donfisto/gazebo_ws/install/fs_robot_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/donfisto/gazebo_ws/build/fs_basic_robot -- -j24 -l24
+[0.247s] Invoking command in '/home/donfisto/gazebo_ws/build/fs_basic_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/donfisto/perception_ws/install/lidar_perception:/home/donfisto/gazebo_ws/install/fs_robot_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/donfisto/gazebo_ws/build/fs_basic_robot
+[0.260s] -- Install configuration: ""
+[0.261s] -- Execute custom install script
+[0.261s] -- Up-to-date symlink: /home/donfisto/gazebo_ws/install/fs_basic_robot/share/fs_basic_robot/launch/sim.launch.py
+[0.261s] -- Up-to-date symlink: /home/donfisto/gazebo_ws/install/fs_basic_robot/share/fs_basic_robot/urdf/fs_basic_lidar.urdf
+[0.262s] -- Up-to-date symlink: /home/donfisto/gazebo_ws/install/fs_basic_robot/share/ament_index/resource_index/package_run_dependencies/fs_basic_robot
+[0.262s] -- Up-to-date symlink: /home/donfisto/gazebo_ws/install/fs_basic_robot/share/ament_index/resource_index/parent_prefix_path/fs_basic_robot
+[0.262s] -- Up-to-date symlink: /home/donfisto/gazebo_ws/install/fs_basic_robot/share/fs_basic_robot/environment/ament_prefix_path.sh
+[0.263s] -- Up-to-date symlink: /home/donfisto/gazebo_ws/install/fs_basic_robot/share/fs_basic_robot/environment/ament_prefix_path.dsv
+[0.263s] -- Up-to-date symlink: /home/donfisto/gazebo_ws/install/fs_basic_robot/share/fs_basic_robot/environment/path.sh
+[0.263s] -- Up-to-date symlink: /home/donfisto/gazebo_ws/install/fs_basic_robot/share/fs_basic_robot/environment/path.dsv
+[0.263s] -- Up-to-date symlink: /home/donfisto/gazebo_ws/install/fs_basic_robot/share/fs_basic_robot/local_setup.bash
+[0.263s] -- Up-to-date symlink: /home/donfisto/gazebo_ws/install/fs_basic_robot/share/fs_basic_robot/local_setup.sh
+[0.264s] -- Up-to-date symlink: /home/donfisto/gazebo_ws/install/fs_basic_robot/share/fs_basic_robot/local_setup.zsh
+[0.264s] -- Up-to-date symlink: /home/donfisto/gazebo_ws/install/fs_basic_robot/share/fs_basic_robot/local_setup.dsv
+[0.264s] -- Symlinking: /home/donfisto/gazebo_ws/install/fs_basic_robot/share/fs_basic_robot/package.dsv
+[0.279s] -- Up-to-date symlink: /home/donfisto/gazebo_ws/install/fs_basic_robot/share/ament_index/resource_index/packages/fs_basic_robot
+[0.279s] -- Up-to-date symlink: /home/donfisto/gazebo_ws/install/fs_basic_robot/share/fs_basic_robot/cmake/fs_basic_robotConfig.cmake
+[0.279s] -- Up-to-date symlink: /home/donfisto/gazebo_ws/install/fs_basic_robot/share/fs_basic_robot/cmake/fs_basic_robotConfig-version.cmake
+[0.279s] -- Up-to-date symlink: /home/donfisto/gazebo_ws/install/fs_basic_robot/share/fs_basic_robot/package.xml
+[0.282s] Invoked command in '/home/donfisto/gazebo_ws/build/fs_basic_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/donfisto/perception_ws/install/lidar_perception:/home/donfisto/gazebo_ws/install/fs_robot_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/donfisto/gazebo_ws/build/fs_basic_robot

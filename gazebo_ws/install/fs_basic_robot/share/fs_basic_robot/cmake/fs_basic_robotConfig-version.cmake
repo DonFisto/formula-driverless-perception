@@ -1,0 +1,1 @@
+/home/donfisto/gazebo_ws/build/fs_basic_robot/ament_cmake_core/fs_basic_robotConfig-version.cmake

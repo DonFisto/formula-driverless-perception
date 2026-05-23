@@ -1,0 +1,1 @@
+/home/donfisto/perception_ws/build/perception_msgs/rosidl_typesupport_fastrtps_cpp/perception_msgs/msg/detail/obstacle_array__rosidl_typesupport_fastrtps_cpp.hpp

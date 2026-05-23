@@ -1,0 +1,1 @@
+/home/donfisto/perception_ws/build/perception_msgs/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake

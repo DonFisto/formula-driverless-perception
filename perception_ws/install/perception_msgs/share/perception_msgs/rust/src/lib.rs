@@ -1,0 +1,1 @@
+/home/donfisto/perception_ws/build/perception_msgs/rosidl_generator_rs/perception_msgs/rust/src/lib.rs

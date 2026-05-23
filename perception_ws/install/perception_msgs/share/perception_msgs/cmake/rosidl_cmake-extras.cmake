@@ -1,0 +1,1 @@
+/home/donfisto/perception_ws/build/perception_msgs/rosidl_cmake/rosidl_cmake-extras.cmake

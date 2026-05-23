@@ -1,0 +1,42 @@
+[0.014s] Invoking command in '/home/donfisto/gazebo_ws/build/fs_robot_description_jazzy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/donfisto/gazebo_ws/src/fs_robot_description_jazzy -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/donfisto/gazebo_ws/install/fs_robot_description_jazzy
+[0.150s] -- The C compiler identification is GNU 13.3.0
+[0.251s] -- The CXX compiler identification is GNU 13.3.0
+[0.275s] -- Detecting C compiler ABI info
+[0.398s] -- Detecting C compiler ABI info - done
+[0.412s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.413s] -- Detecting C compile features
+[0.413s] -- Detecting C compile features - done
+[0.427s] -- Detecting CXX compiler ABI info
+[0.559s] -- Detecting CXX compiler ABI info - done
+[0.574s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.574s] -- Detecting CXX compile features
+[0.575s] -- Detecting CXX compile features - done
+[0.585s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.793s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.908s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.077s] -- Configuring done (1.0s)
+[1.080s] -- Generating done (0.0s)
+[1.082s] -- Build files have been written to: /home/donfisto/gazebo_ws/build/fs_robot_description_jazzy
+[1.090s] Invoked command in '/home/donfisto/gazebo_ws/build/fs_robot_description_jazzy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/donfisto/gazebo_ws/src/fs_robot_description_jazzy -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/donfisto/gazebo_ws/install/fs_robot_description_jazzy
+[1.091s] Invoking command in '/home/donfisto/gazebo_ws/build/fs_robot_description_jazzy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/donfisto/gazebo_ws/build/fs_robot_description_jazzy -- -j24 -l24
+[1.144s] Invoked command in '/home/donfisto/gazebo_ws/build/fs_robot_description_jazzy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/donfisto/gazebo_ws/build/fs_robot_description_jazzy -- -j24 -l24
+[1.156s] Invoking command in '/home/donfisto/gazebo_ws/build/fs_robot_description_jazzy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/donfisto/gazebo_ws/build/fs_robot_description_jazzy
+[1.167s] -- Install configuration: ""
+[1.168s] -- Execute custom install script
+[1.168s] -- Symlinking: /home/donfisto/gazebo_ws/install/fs_robot_description_jazzy/share/fs_robot_description_jazzy/worlds/flexirover_world.sdf
+[1.180s] -- Symlinking: /home/donfisto/gazebo_ws/install/fs_robot_description_jazzy/share/ament_index/resource_index/package_run_dependencies/fs_robot_description_jazzy
+[1.191s] -- Symlinking: /home/donfisto/gazebo_ws/install/fs_robot_description_jazzy/share/ament_index/resource_index/parent_prefix_path/fs_robot_description_jazzy
+[1.202s] -- Symlinking: /home/donfisto/gazebo_ws/install/fs_robot_description_jazzy/share/fs_robot_description_jazzy/environment/ament_prefix_path.sh
+[1.213s] -- Symlinking: /home/donfisto/gazebo_ws/install/fs_robot_description_jazzy/share/fs_robot_description_jazzy/environment/ament_prefix_path.dsv
+[1.224s] -- Symlinking: /home/donfisto/gazebo_ws/install/fs_robot_description_jazzy/share/fs_robot_description_jazzy/environment/path.sh
+[1.235s] -- Symlinking: /home/donfisto/gazebo_ws/install/fs_robot_description_jazzy/share/fs_robot_description_jazzy/environment/path.dsv
+[1.245s] -- Symlinking: /home/donfisto/gazebo_ws/install/fs_robot_description_jazzy/share/fs_robot_description_jazzy/local_setup.bash
+[1.256s] -- Symlinking: /home/donfisto/gazebo_ws/install/fs_robot_description_jazzy/share/fs_robot_description_jazzy/local_setup.sh
+[1.266s] -- Symlinking: /home/donfisto/gazebo_ws/install/fs_robot_description_jazzy/share/fs_robot_description_jazzy/local_setup.zsh
+[1.277s] -- Symlinking: /home/donfisto/gazebo_ws/install/fs_robot_description_jazzy/share/fs_robot_description_jazzy/local_setup.dsv
+[1.288s] -- Symlinking: /home/donfisto/gazebo_ws/install/fs_robot_description_jazzy/share/fs_robot_description_jazzy/package.dsv
+[1.299s] -- Symlinking: /home/donfisto/gazebo_ws/install/fs_robot_description_jazzy/share/ament_index/resource_index/packages/fs_robot_description_jazzy
+[1.310s] -- Symlinking: /home/donfisto/gazebo_ws/install/fs_robot_description_jazzy/share/fs_robot_description_jazzy/cmake/fs_robot_description_jazzyConfig.cmake
+[1.321s] -- Symlinking: /home/donfisto/gazebo_ws/install/fs_robot_description_jazzy/share/fs_robot_description_jazzy/cmake/fs_robot_description_jazzyConfig-version.cmake
+[1.332s] -- Symlinking: /home/donfisto/gazebo_ws/install/fs_robot_description_jazzy/share/fs_robot_description_jazzy/package.xml
+[1.345s] Invoked command in '/home/donfisto/gazebo_ws/build/fs_robot_description_jazzy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/donfisto/gazebo_ws/build/fs_robot_description_jazzy

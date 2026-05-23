@@ -1,0 +1,1 @@
+/home/donfisto/perception_ws/build/perception_msgs/rosidl_typesupport_fastrtps_c/perception_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h

@@ -1,0 +1,240 @@
+[0.252s] Invoking command in '/home/donfisto/perception_ws/build/perception_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/donfisto/gazebo_ws/install/fs_robot_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/donfisto/perception_ws/src/perception_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/donfisto/perception_ws/install/perception_msgs
+[0.329s] -- The C compiler identification is GNU 13.3.0
+[0.402s] -- The CXX compiler identification is GNU 13.3.0
+[0.423s] -- Detecting C compiler ABI info
+[0.541s] -- Detecting C compiler ABI info - done
+[0.555s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.555s] -- Detecting C compile features
+[0.556s] -- Detecting C compile features - done
+[0.569s] -- Detecting CXX compiler ABI info
+[0.701s] -- Detecting CXX compiler ABI info - done
+[0.716s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.716s] -- Detecting CXX compile features
+[0.717s] -- Detecting CXX compile features - done
+[0.722s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.935s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.028s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.088s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.099s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.188s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.263s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.266s] -- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)
+[2.090s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.704s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.501s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.507s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[3.688s] -- Found PythonExtra: /usr/bin/python3  
+[4.270s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[4.383s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.389s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.429s] -- Added test 'lint_cmake' to check CMake code style
+[4.431s] -- Added test 'xmllint' to check XML markup files
+[4.436s] -- Configuring done (4.2s)
+[4.481s] -- Generating done (0.0s)
+[4.496s] -- Build files have been written to: /home/donfisto/perception_ws/build/perception_msgs
+[4.512s] Invoked command in '/home/donfisto/perception_ws/build/perception_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/donfisto/gazebo_ws/install/fs_robot_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/donfisto/perception_ws/src/perception_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/donfisto/perception_ws/install/perception_msgs
+[4.513s] Invoking command in '/home/donfisto/perception_ws/build/perception_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/donfisto/gazebo_ws/install/fs_robot_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/donfisto/perception_ws/build/perception_msgs -- -j24 -l24
+[4.581s] [  2%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[4.582s] [  4%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[4.593s] [  4%] Built target ament_cmake_python_symlink_perception_msgs
+[4.801s] [  4%] Built target perception_msgs__rosidl_generator_type_description
+[4.811s] running egg_info
+[4.812s] creating perception_msgs.egg-info
+[4.812s] [  4%] Built target perception_msgs__rs
+[4.815s] [  6%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.825s] writing perception_msgs.egg-info/PKG-INFO
+[4.826s] writing dependency_links to perception_msgs.egg-info/dependency_links.txt
+[4.826s] writing top-level names to perception_msgs.egg-info/top_level.txt
+[4.826s] writing manifest file 'perception_msgs.egg-info/SOURCES.txt'
+[4.829s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.866s] reading manifest file 'perception_msgs.egg-info/SOURCES.txt'
+[4.866s] writing manifest file 'perception_msgs.egg-info/SOURCES.txt'
+[4.898s] [  8%] Built target ament_cmake_python_build_perception_msgs_egg
+[5.081s] [  8%] Built target perception_msgs__cpp
+[5.102s] [ 11%] [32mBuilding C object CMakeFiles/perception_msgs__rosidl_generator_c.dir/rosidl_generator_c/perception_msgs/msg/detail/obstacle__description.c.o[0m
+[5.103s] [ 17%] [32mBuilding C object CMakeFiles/perception_msgs__rosidl_generator_c.dir/rosidl_generator_c/perception_msgs/msg/detail/obstacle__type_support.c.o[0m
+[5.103s] [ 17%] [32mBuilding C object CMakeFiles/perception_msgs__rosidl_generator_c.dir/rosidl_generator_c/perception_msgs/msg/detail/obstacle__functions.c.o[0m
+[5.103s] [ 17%] [32mBuilding C object CMakeFiles/perception_msgs__rosidl_generator_c.dir/rosidl_generator_c/perception_msgs/msg/detail/obstacle_array__description.c.o[0m
+[5.103s] [ 20%] [32mBuilding C object CMakeFiles/perception_msgs__rosidl_generator_c.dir/rosidl_generator_c/perception_msgs/msg/detail/obstacle_array__functions.c.o[0m
+[5.103s] [ 22%] [32mBuilding C object CMakeFiles/perception_msgs__rosidl_generator_c.dir/rosidl_generator_c/perception_msgs/msg/detail/obstacle_array__type_support.c.o[0m
+[5.175s] [ 24%] [32m[1mLinking C shared library libperception_msgs__rosidl_generator_c.so[0m
+[5.226s] [ 24%] Built target perception_msgs__rosidl_generator_c
+[5.241s] [ 31%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.241s] [ 31%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.241s] [ 31%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.241s] [ 33%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.241s] [ 35%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.242s] [ 37%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.489s] [ 42%] [32mBuilding CXX object CMakeFiles/perception_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/perception_msgs/msg/obstacle__type_support.cpp.o[0m
+[5.489s] [ 42%] [32mBuilding CXX object CMakeFiles/perception_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/perception_msgs/msg/obstacle_array__type_support.cpp.o[0m
+[5.491s] [ 44%] [32mBuilding CXX object CMakeFiles/perception_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/perception_msgs/msg/obstacle__type_support.cpp.o[0m
+[5.492s] [ 46%] [32mBuilding CXX object CMakeFiles/perception_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/perception_msgs/msg/obstacle_array__type_support.cpp.o[0m
+[5.501s] [ 48%] [32mBuilding CXX object CMakeFiles/perception_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/perception_msgs/msg/detail/obstacle__type_support.cpp.o[0m
+[5.501s] [ 51%] [32mBuilding CXX object CMakeFiles/perception_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/perception_msgs/msg/detail/obstacle_array__type_support.cpp.o[0m
+[5.509s] [ 55%] [32mBuilding C object CMakeFiles/perception_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/perception_msgs/msg/detail/obstacle__type_support.c.o[0m
+[5.509s] [ 55%] [32mBuilding C object CMakeFiles/perception_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/perception_msgs/msg/detail/obstacle_array__type_support.c.o[0m
+[5.527s] [ 57%] [32mBuilding CXX object CMakeFiles/perception_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/perception_msgs/msg/detail/obstacle__type_support_c.cpp.o[0m
+[5.527s] [ 60%] [32mBuilding CXX object CMakeFiles/perception_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/perception_msgs/msg/detail/obstacle_array__type_support_c.cpp.o[0m
+[5.556s] [ 64%] [32mBuilding CXX object CMakeFiles/perception_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/perception_msgs/msg/detail/dds_fastrtps/obstacle__type_support.cpp.o[0m
+[5.556s] [ 64%] [32mBuilding CXX object CMakeFiles/perception_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/perception_msgs/msg/detail/dds_fastrtps/obstacle_array__type_support.cpp.o[0m
+[5.559s] [ 66%] [32m[1mLinking CXX shared library libperception_msgs__rosidl_typesupport_c.so[0m
+[5.560s] [ 68%] [32m[1mLinking C shared library libperception_msgs__rosidl_typesupport_introspection_c.so[0m
+[5.602s] [ 68%] Built target perception_msgs__rosidl_typesupport_introspection_c
+[5.613s] [ 68%] Built target perception_msgs__rosidl_typesupport_c
+[5.817s] [ 71%] [32m[1mLinking CXX shared library libperception_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[5.821s] [ 73%] [32m[1mLinking CXX shared library libperception_msgs__rosidl_typesupport_cpp.so[0m
+[5.877s] [ 73%] Built target perception_msgs__rosidl_typesupport_cpp
+[5.916s] [ 73%] Built target perception_msgs__rosidl_typesupport_introspection_cpp
+[5.975s] [ 75%] [32m[1mLinking CXX shared library libperception_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[6.035s] [ 77%] [32m[1mLinking CXX shared library libperception_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.041s] [ 77%] Built target perception_msgs__rosidl_typesupport_fastrtps_c
+[6.138s] [ 77%] Built target perception_msgs__rosidl_typesupport_fastrtps_cpp
+[6.167s] [ 77%] Built target perception_msgs
+[6.195s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.500s] [ 80%] Built target perception_msgs__py
+[6.528s] [ 82%] [32mBuilding C object CMakeFiles/perception_msgs__rosidl_generator_py.dir/rosidl_generator_py/perception_msgs/msg/_obstacle_s.c.o[0m
+[6.528s] [ 84%] [32mBuilding C object CMakeFiles/perception_msgs__rosidl_generator_py.dir/rosidl_generator_py/perception_msgs/msg/_obstacle_array_s.c.o[0m
+[6.695s] [ 86%] [32m[1mLinking C shared library libperception_msgs__rosidl_generator_py.so[0m
+[6.755s] [ 86%] Built target perception_msgs__rosidl_generator_py
+[6.785s] [ 91%] [32mBuilding C object CMakeFiles/perception_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/perception_msgs/_perception_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[6.785s] [ 91%] [32mBuilding C object CMakeFiles/perception_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/perception_msgs/_perception_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.787s] [ 93%] [32mBuilding C object CMakeFiles/perception_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/perception_msgs/_perception_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.913s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/perception_msgs/perception_msgs_s__rosidl_typesupport_c.so[0m
+[6.914s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/perception_msgs/perception_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[6.918s] [100%] [32m[1mLinking C shared module rosidl_generator_py/perception_msgs/perception_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[6.955s] [100%] Built target perception_msgs_s__rosidl_typesupport_introspection_c
+[6.955s] [100%] Built target perception_msgs_s__rosidl_typesupport_c
+[6.960s] [100%] Built target perception_msgs_s__rosidl_typesupport_fastrtps_c
+[6.975s] Invoked command in '/home/donfisto/perception_ws/build/perception_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/donfisto/gazebo_ws/install/fs_robot_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/donfisto/perception_ws/build/perception_msgs -- -j24 -l24
+[6.987s] Invoking command in '/home/donfisto/perception_ws/build/perception_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/donfisto/gazebo_ws/install/fs_robot_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/donfisto/perception_ws/build/perception_msgs
+[6.998s] -- Install configuration: ""
+[6.998s] -- Execute custom install script
+[6.999s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/ament_index/resource_index/rosidl_interfaces/perception_msgs
+[7.010s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/msg/Obstacle.json
+[7.020s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/msg/ObstacleArray.json
+[7.031s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/detail/obstacle__functions.h
+[7.041s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/detail/obstacle__struct.h
+[7.051s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/detail/obstacle__type_support.h
+[7.062s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/detail/obstacle_array__functions.h
+[7.072s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/detail/obstacle_array__struct.h
+[7.082s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/detail/obstacle_array__type_support.h
+[7.092s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/obstacle.h
+[7.102s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/obstacle_array.h
+[7.112s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/rosidl_generator_c__visibility_control.h
+[7.122s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/environment/library_path.sh
+[7.132s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/environment/library_path.dsv
+[7.143s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/detail/obstacle__rosidl_typesupport_fastrtps_c.h
+[7.153s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/detail/obstacle_array__rosidl_typesupport_fastrtps_c.h
+[7.163s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.175s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/detail/obstacle__rosidl_typesupport_introspection_c.h
+[7.186s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/detail/obstacle_array__rosidl_typesupport_introspection_c.h
+[7.197s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.208s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/detail/obstacle__builder.hpp
+[7.218s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/detail/obstacle__struct.hpp
+[7.229s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/detail/obstacle__traits.hpp
+[7.240s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/detail/obstacle__type_support.hpp
+[7.252s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/detail/obstacle_array__builder.hpp
+[7.263s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/detail/obstacle_array__struct.hpp
+[7.274s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/detail/obstacle_array__traits.hpp
+[7.284s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/detail/obstacle_array__type_support.hpp
+[7.295s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/obstacle.hpp
+[7.305s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/obstacle_array.hpp
+[7.316s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.327s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/detail/obstacle__rosidl_typesupport_fastrtps_cpp.hpp
+[7.338s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/detail/obstacle_array__rosidl_typesupport_fastrtps_cpp.hpp
+[7.348s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.359s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/detail/obstacle__rosidl_typesupport_introspection_cpp.hpp
+[7.370s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/include/perception_msgs/perception_msgs/msg/detail/obstacle_array__rosidl_typesupport_introspection_cpp.hpp
+[7.381s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/environment/pythonpath.sh
+[7.392s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/environment/pythonpath.dsv
+[7.403s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/lib/python3.12/site-packages/perception_msgs-0.0.0-py3.12.egg-info/PKG-INFO
+[7.413s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/lib/python3.12/site-packages/perception_msgs-0.0.0-py3.12.egg-info/SOURCES.txt
+[7.424s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/lib/python3.12/site-packages/perception_msgs-0.0.0-py3.12.egg-info/dependency_links.txt
+[7.435s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/lib/python3.12/site-packages/perception_msgs-0.0.0-py3.12.egg-info/top_level.txt
+[7.446s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/lib/python3.12/site-packages/perception_msgs/__init__.py
+[7.456s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/lib/python3.12/site-packages/perception_msgs/_perception_msgs_s.ep.rosidl_typesupport_c.c
+[7.466s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/lib/python3.12/site-packages/perception_msgs/_perception_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.477s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/lib/python3.12/site-packages/perception_msgs/_perception_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[7.487s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/lib/python3.12/site-packages/perception_msgs/msg/__init__.py
+[7.498s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/lib/python3.12/site-packages/perception_msgs/msg/_obstacle.py
+[7.508s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/lib/python3.12/site-packages/perception_msgs/msg/_obstacle_array.py
+[7.519s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/lib/python3.12/site-packages/perception_msgs/msg/_obstacle_array_s.c
+[7.529s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/lib/python3.12/site-packages/perception_msgs/msg/_obstacle_s.c
+[7.540s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/lib/python3.12/site-packages/perception_msgs/perception_msgs_s__rosidl_typesupport_c.so
+[7.550s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/lib/python3.12/site-packages/perception_msgs/perception_msgs_s__rosidl_typesupport_fastrtps_c.so
+[7.560s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/lib/python3.12/site-packages/perception_msgs/perception_msgs_s__rosidl_typesupport_introspection_c.so
+[7.572s] -- Up-to-date symlink: /home/donfisto/perception_ws/install/perception_msgs/lib/python3.12/site-packages/perception_msgs/perception_msgs_s__rosidl_typesupport_fastrtps_c.so
+[7.572s] -- Up-to-date symlink: /home/donfisto/perception_ws/install/perception_msgs/lib/python3.12/site-packages/perception_msgs/perception_msgs_s__rosidl_typesupport_introspection_c.so
+[7.573s] -- Up-to-date symlink: /home/donfisto/perception_ws/install/perception_msgs/lib/python3.12/site-packages/perception_msgs/perception_msgs_s__rosidl_typesupport_c.so
+[7.573s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/ament_index/resource_index/rust_packages/perception_msgs
+[7.584s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/rust/Cargo.toml
+[7.595s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/rust/build.rs
+[7.605s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/rust/src/lib.rs
+[7.615s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/rust/src/msg.rs
+[7.626s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/rust/src/msg/rmw.rs
+[7.636s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/msg/Obstacle.idl
+[7.646s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/msg/ObstacleArray.idl
+[7.656s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/msg/Obstacle.msg
+[7.666s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/msg/ObstacleArray.msg
+[7.677s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/ament_index/resource_index/package_run_dependencies/perception_msgs
+[7.688s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/ament_index/resource_index/parent_prefix_path/perception_msgs
+[7.698s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/environment/ament_prefix_path.sh
+[7.708s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/environment/ament_prefix_path.dsv
+[7.718s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/environment/path.sh
+[7.728s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/environment/path.dsv
+[7.738s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/local_setup.bash
+[7.748s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/local_setup.sh
+[7.758s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/local_setup.zsh
+[7.769s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/local_setup.dsv
+[7.780s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/package.dsv
+[7.791s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/ament_index/resource_index/packages/perception_msgs
+[7.801s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/cmake/rosidl_cmake-extras.cmake
+[7.812s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.822s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.833s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[7.844s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[7.854s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.864s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.875s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/cmake/perception_msgsConfig.cmake
+[7.886s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/cmake/perception_msgsConfig-version.cmake
+[7.896s] -- Symlinking: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/package.xml
+[7.907s] -- Installing: /home/donfisto/perception_ws/install/perception_msgs/lib/libperception_msgs__rosidl_generator_c.so
+[7.907s] -- Set non-toolchain portion of runtime path of "/home/donfisto/perception_ws/install/perception_msgs/lib/libperception_msgs__rosidl_generator_c.so" to ""
+[7.907s] -- Installing: /home/donfisto/perception_ws/install/perception_msgs/lib/libperception_msgs__rosidl_typesupport_fastrtps_c.so
+[7.908s] -- Set non-toolchain portion of runtime path of "/home/donfisto/perception_ws/install/perception_msgs/lib/libperception_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[7.908s] -- Installing: /home/donfisto/perception_ws/install/perception_msgs/lib/libperception_msgs__rosidl_typesupport_introspection_c.so
+[7.908s] -- Set non-toolchain portion of runtime path of "/home/donfisto/perception_ws/install/perception_msgs/lib/libperception_msgs__rosidl_typesupport_introspection_c.so" to ""
+[7.908s] -- Installing: /home/donfisto/perception_ws/install/perception_msgs/lib/libperception_msgs__rosidl_typesupport_c.so
+[7.908s] -- Set non-toolchain portion of runtime path of "/home/donfisto/perception_ws/install/perception_msgs/lib/libperception_msgs__rosidl_typesupport_c.so" to ""
+[7.908s] -- Installing: /home/donfisto/perception_ws/install/perception_msgs/lib/libperception_msgs__rosidl_typesupport_fastrtps_cpp.so
+[7.908s] -- Set non-toolchain portion of runtime path of "/home/donfisto/perception_ws/install/perception_msgs/lib/libperception_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.909s] -- Installing: /home/donfisto/perception_ws/install/perception_msgs/lib/libperception_msgs__rosidl_typesupport_introspection_cpp.so
+[7.909s] -- Set non-toolchain portion of runtime path of "/home/donfisto/perception_ws/install/perception_msgs/lib/libperception_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[7.909s] -- Installing: /home/donfisto/perception_ws/install/perception_msgs/lib/libperception_msgs__rosidl_typesupport_cpp.so
+[7.909s] -- Set non-toolchain portion of runtime path of "/home/donfisto/perception_ws/install/perception_msgs/lib/libperception_msgs__rosidl_typesupport_cpp.so" to ""
+[7.963s] Listing '/home/donfisto/perception_ws/install/perception_msgs/lib/python3.12/site-packages/perception_msgs'...
+[7.963s] Compiling '/home/donfisto/perception_ws/install/perception_msgs/lib/python3.12/site-packages/perception_msgs/__init__.py'...
+[7.963s] Listing '/home/donfisto/perception_ws/install/perception_msgs/lib/python3.12/site-packages/perception_msgs/msg'...
+[7.963s] Compiling '/home/donfisto/perception_ws/install/perception_msgs/lib/python3.12/site-packages/perception_msgs/msg/__init__.py'...
+[7.963s] Compiling '/home/donfisto/perception_ws/install/perception_msgs/lib/python3.12/site-packages/perception_msgs/msg/_obstacle.py'...
+[7.963s] Compiling '/home/donfisto/perception_ws/install/perception_msgs/lib/python3.12/site-packages/perception_msgs/msg/_obstacle_array.py'...
+[7.970s] -- Installing: /home/donfisto/perception_ws/install/perception_msgs/lib/libperception_msgs__rosidl_generator_py.so
+[7.971s] -- Set non-toolchain portion of runtime path of "/home/donfisto/perception_ws/install/perception_msgs/lib/libperception_msgs__rosidl_generator_py.so" to ""
+[7.971s] -- Installing: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/cmake/export_perception_msgs__rosidl_generator_cExport.cmake
+[7.971s] -- Installing: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/cmake/export_perception_msgs__rosidl_generator_cExport-noconfig.cmake
+[7.971s] -- Installing: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/cmake/export_perception_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[7.971s] -- Installing: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/cmake/export_perception_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.972s] -- Installing: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/cmake/perception_msgs__rosidl_typesupport_introspection_cExport.cmake
+[7.972s] -- Installing: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/cmake/perception_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.972s] -- Installing: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/cmake/perception_msgs__rosidl_typesupport_cExport.cmake
+[7.972s] -- Installing: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/cmake/perception_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[7.972s] -- Installing: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/cmake/export_perception_msgs__rosidl_generator_cppExport.cmake
+[7.972s] -- Installing: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/cmake/export_perception_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.972s] -- Installing: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/cmake/export_perception_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.972s] -- Installing: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/cmake/perception_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[7.973s] -- Installing: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/cmake/perception_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.973s] -- Installing: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/cmake/perception_msgs__rosidl_typesupport_cppExport.cmake
+[7.973s] -- Installing: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/cmake/perception_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[7.973s] -- Installing: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/cmake/export_perception_msgs__rosidl_generator_pyExport.cmake
+[7.973s] -- Installing: /home/donfisto/perception_ws/install/perception_msgs/share/perception_msgs/cmake/export_perception_msgs__rosidl_generator_pyExport-noconfig.cmake
+[7.976s] Invoked command in '/home/donfisto/perception_ws/build/perception_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/donfisto/gazebo_ws/install/fs_robot_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/donfisto/perception_ws/build/perception_msgs
